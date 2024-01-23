@@ -1,0 +1,275 @@
+* {
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+     list-style-type: none;
+     text-decoration: none;
+}
+.logoMenu3 a {
+     padding: 0 !important;
+}
+.logoMenu7 a {
+     padding: 0 !important;
+}
+#mainNav {
+     z-index: 10000;
+     align-items: center;
+     justify-content: center;
+     background-color: black;
+     width: 100%;
+     /* height: 10vh; */
+     display: flex;
+}
+.IMGPNG {
+     width: 17%;
+}
+#NavLogo {
+     width: 17%;
+}
+.IMGPNG img {
+     width: 100%;
+}
+.lighttextMenu {
+     display: flex;
+}
+.lighttextMenu ul {
+     padding-left: 4%;
+     justify-content: center;
+     align-items: center;
+     display: flex;
+}
+
+.lighttextMenu ul li {
+     color: rgb(227, 227, 227);
+     padding-right: 10px;
+     display: flex;
+     font-size: 16px;
+}
+.lighttextMenu ul li a:hover {
+     text-decoration: underline;
+
+     opacity: 1;
+     color: rgb(255, 255, 255);
+}
+.lighttextMenu ul li a {
+     padding-left: 5px;
+     color: rgb(var(--color-foreground));
+     opacity: 0.75;
+     letter-spacing: 0.6px;
+     text-decoration: none;
+}
+.righttextMenu ul {
+     list-style-type: none;
+     display: flex;
+}
+.righttextMenu ul li {
+     text-decoration: none;
+}
+.lighttextMenu ul li b {
+     padding-left: 5px;
+}
+/* Animasyon tanımı */
+@keyframes myAnimation {
+     0% {
+          opacity: 0;
+     }
+     100% {
+          opacity: 1;
+     }
+}
+
+/* Varsayılan olarak gizli olan element */
+.logoMenu {
+     line-height: 23px;
+     z-index: 10000;
+
+     padding: 10px;
+     /* width: 15%; */
+     background-color: rgb(0, 0, 0);
+     position: absolute;
+     left: 23%;
+     top: 6.8%;
+     display: none;
+     color: rgb(227, 227, 227);
+     text-decoration: none;
+}
+
+.logoMenu {
+     z-index: 10000;
+
+     padding: 10px;
+     animation: slide-in-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+     animation-duration: 2s;
+     /* Diğer stil özellikleri */
+}
+
+.Menu2 ul {
+     list-style-type: none;
+}
+.Menu2 ul li a:hover {
+     text-decoration: underline;
+
+     color: white;
+     opacity: 1;
+}
+.Menu2 ul li a {
+     transition: 0.25s all;
+     opacity: 0.75;
+     color: rgb(199, 199, 199);
+     text-decoration: none;
+}
+.Menu2 ul li {
+     animation: text-focus-in 0.3s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+     font-size: 16px;
+}
+
+.fa-caret-down.rotate {
+     transition: ease-in-out 1s;
+
+     transform: rotate(180deg);
+}
+
+.righttextMenu ul li:hover {
+     transform: scale(1.1);
+}
+.righttextMenu ul li a {
+     animation-duration: 2s;
+     font-size: 19px;
+     padding: 15px;
+     color: rgb(227, 227, 227);
+}
+.aasdasd12 {
+     width: 100%;
+     height: auto;
+     background-color: rgb(0, 0, 0);
+     position: relative;
+
+     display: none;
+}
+
+.logoMenu2 {
+     z-index: 100000;
+
+     line-height: 23px;
+     padding: 10px;
+     animation: slide-in-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+
+     width: 10%;
+     height: auto;
+     background-color: rgb(0, 0, 0);
+     position: absolute;
+     left: 32%;
+     top: 6.8%;
+     display: none;
+     color: rgb(227, 227, 227);
+     text-decoration: none;
+}
+.logoMenu2 ul li a:hover {
+     text-decoration: underline;
+
+     color: white;
+     opacity: 1;
+}
+.logoMenu2 ul li a {
+     transition: 0.25s all;
+     opacity: 0.75;
+     color: rgb(199, 199, 199);
+     text-decoration: none;
+}
+
+.logoMenu3 {
+     z-index: 100000;
+
+     line-height: 23px;
+     padding: 10px;
+     font-size: 1rem;
+     font-family: inherit;
+     text-underline-offset: 0.3rem;
+     /* width: 15%; */
+     background-color: rgb(0, 0, 0);
+     position: absolute;
+     left: 40%;
+     top: 6.8%;
+     display: none;
+     color: rgb(227, 227, 227);
+     text-decoration: none;
+     animation: slide-in-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+     line-height: calc(1 + 0.3 / var(--font-body-scale));
+}
+@keyframes slide-in-top {
+     0% {
+          transform: translateY(-20px);
+          opacity: 0;
+     }
+     100% {
+          transform: translateY(100);
+          opacity: 1;
+     }
+}
+.logoMenu3 ul {
+     animation: animateMenuOpen var(--duration-default) ease;
+     animation-fill-mode: forwards;
+     z-index: 1;
+}
+.logoMenu3 ul li a:hover {
+     text-decoration: underline;
+
+     color: white;
+     opacity: 1;
+}
+.logoMenu3 ul li a {
+     justify-content: space-between;
+     transition: 0.25s all;
+     opacity: 0.75;
+     color: rgb(199, 199, 199);
+     text-decoration: none;
+}
+
+.logoMenu7 {
+     z-index: 100000;
+     line-height: 23px;
+     padding: 10px;
+     /* width: 15%; */
+     height: auto;
+     background-color: rgb(0, 0, 0);
+     position: absolute;
+     left: 60%;
+     top: 6.6%;
+     display: none;
+     color: rgb(227, 227, 227);
+     text-decoration: none;
+     animation: slide-in-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+.logoMenu7 ul li a:hover {
+     text-decoration: underline;
+     text-underline-offset: 0.3rem;
+     color: white;
+     opacity: 1;
+}
+.logoMenu7 ul li a {
+     transition: 0.25s all;
+     opacity: 0.75;
+     color: rgb(199, 199, 199);
+     text-decoration: none;
+}
+.menu-link span {
+     text-decoration: none;
+}
+.menu-link-2 span {
+     text-decoration: none;
+}
+.menu-link-7 span {
+     text-decoration: none;
+}
+.active {
+     text-decoration: underline !important;
+}
+@media only screen and (max-width: 767px) {
+     /* Your mobile-specific styles go here */
+ 
+     /* Example: Hide an element on mobile screens */
+     .dasdasdasd {
+       display: none !important;
+     }
+   }

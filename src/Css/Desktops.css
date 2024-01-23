@@ -1,0 +1,993 @@
+.DesktopsMain {
+    width: 100%;
+
+    /* height: 10vh; */
+    background-color: rgb(0, 0, 0);
+}
+.CustomizationFirstVideo21 video {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 100vw;
+    height: 50cqmax;
+}
+.DesktopsGamingPCsAll {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.DesktopsGamingPC {
+    cursor: pointer;
+    width: 30%;
+    height: auto;
+    background-color: rgb(26, 26, 26);
+
+    margin-bottom: 80px;
+}
+.CustomizationFirstVideo21 h1,
+.DesktopsMain h1 {
+    text-align: center;
+    font-size: 40px;
+    line-height: 1.3em;
+    letter-spacing: 0.6px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: Montserrat;
+}
+.DesktopsGamingPC h3 {
+    font-size: 25px;
+    line-height: 1.3em;
+    letter-spacing: 0.6px;
+    color: #fff;
+    text-transform: none;
+    font-weight: 800;
+    font-family: Montserrat;
+}
+.DesktopsGamingPCtextt1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.DesktopsGamingPCtextt1flex {
+    display: flex;
+    justify-content: space-between;
+}
+.DesktopsGamingPCstartig {
+    font-size: 16px;
+    line-height: 1.8em;
+    letter-spacing: 0.6px;
+    color: #ffffffbf;
+    text-transform: none;
+    font-weight: 400;
+}
+.DesktopsGamingPCBuy {
+    font-size: 30px;
+    line-height: 1.8em;
+    letter-spacing: 0.6px;
+    color: #fff;
+    text-transform: none;
+    font-weight: 200;
+    font-family: Montserrat;
+    padding-bottom: 0;
+}
+.DesktopsGamingPC img {
+    margin-left: auto;
+    margin-right: auto;
+    /* padding: 20px; */
+    width: 60%;
+}
+.DesktopsGamingPCLength {
+    padding-bottom: 5px;
+    font-size: 12px;
+    line-height: 1.8em;
+    letter-spacing: 0.6px;
+    color: #fff;
+    text-transform: none;
+    font-weight: 400;
+}
+
+.DesktopsGamingexplain {
+    border-top: 1px solid rgb(255, 255, 255);
+    font-size: 12px;
+    line-height: 1.8em;
+    letter-spacing: 0.6px;
+    color: #ffffffbf;
+    text-transform: none;
+    font-weight: 400;
+}
+.DesktopsGamingPC:hover {
+    background-color: rgb(14, 14, 14);
+}
+/* !DesktopClickAbout */
+.DesktopClickAboutMain {
+    width: 100%;
+    height: auto;
+}
+
+.DesktopClickAbout {
+    padding-top: 80px;
+    background-image: url(https://ucarecdn.com/06d78298-1bd1-44d3-aa3f-9de07633a87e/LANCOOLBGTOP.png);
+    background-color: #000;
+    height: 800px;
+    padding-bottom: 101px;
+    background-position: center center;
+    padding-left: 0;
+}
+.DesktopClickAboutText {
+    width: 50%;
+    padding: 30px;
+    /* height: 60vh; */
+    /* background-color: aqua; */
+}
+.DesktopClickAboutText h1 {
+    font-size: 60px;
+    line-height: 0.9em;
+    letter-spacing: 0.6px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: Montserrat;
+}
+.DesktopClickAboutText p:first-child {
+    padding-top: 68px;
+    font-size: 16px;
+    line-height: 1.8em;
+    letter-spacing: 0.6px;
+    color: #ffffffbf;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.DesktopClickAboutText h4 {
+    font-size: 25px;
+    line-height: 1.8em;
+    letter-spacing: 0.6px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: Montserrat;
+}
+.DesktopClickAboutText a {
+    padding: 15px 40px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    background-color: #fff;
+    color: #000 !;
+    font-family: Montserrat;
+    border-radius: 10px;
+}
+.DesktopClickAboutText a:hover {
+    color: white;
+    background-color: rgb(255, 0, 234);
+}
+
+/* !DesktopClickAboutBuild */
+.DesktopClickAboutBuild {
+    padding-bottom: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* height: 30vh; */
+    background-color: rgb(30, 30, 30);
+}
+.DesktopClickAboutBuildPcDiv {
+    width: 40%;
+    height: auto;
+    /* background-color: darkblue; */
+}
+.DesktopClickAboutBuildPcDivImg img {
+    width: 80%;
+}
+
+.DesktopClickAboutBuildPcDivButton a:last-child {
+    margin-left: 20px;
+}
+.DesktopClickAboutBuildPcDivButton a {
+    padding: 15px 40px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    background-color: #fff;
+    color: #000;
+    font-family: Montserrat;
+    border-radius: 10px;
+}
+.DesktopClickAboutBuildPcDivButton a:hover {
+    background-color: #ff00d9;
+    color: white;
+}
+.DesktopClickAboutBuildConfigurationtext {
+    background-color: rgb(30, 30, 30);
+}
+.DesktopClickAboutBuildConfigurationtext p {
+    padding-left: 3px;
+    font-size: 16px;
+    line-height: 1.8em;
+    letter-spacing: 0.6px;
+    color: #09f1f1;
+    text-transform: none;
+    font-weight: 400;
+}
+.DesktopClickAboutBuildConfigurationtext span {
+    font-size: 40px;
+    line-height: 1em;
+    letter-spacing: 0.6px;
+    color: #fff;
+    text-transform: none;
+    font-weight: 400;
+}
+.DesktopClickAboutBuildPcDivSpecificationnAll {
+    padding-bottom: 15px;
+    display: flex;
+}
+.DesktopClickAboutBuildPcDivSpecificationimage {
+    display: flex;
+    justify-content: center;
+
+    width: 10%;
+}
+.DesktopClickAboutBuildPcDivSpecificationimage img {
+    width: 60%;
+    object-fit: cover;
+}
+.DesktopClickAboutBuildPcDivSpecificationnAll p:first-child {
+    font-size: 18px;
+    line-height: 1em;
+    letter-spacing: 0.6px;
+    color: #fff;
+    text-transform: none;
+    font-weight: 600;
+    font-family: Montserrat;
+}
+
+.DesktopClickAboutBuildPcDivSpecificationnAll p:last-child {
+    font-size: 12px;
+    line-height: 1.8em;
+    letter-spacing: 0.6px;
+    color: #ffffffbf;
+    text-transform: none;
+    font-weight: 400;
+}
+.DesktopClickAboutBuildPcDivparagraf {
+    padding-bottom: 2px;
+    width: 80%;
+    border-top: 1px solid rgb(255, 0, 238);
+}
+.DesktopClickAboutBuildPcDivparagraf p {
+    font-size: 30px;
+    line-height: 1em;
+    letter-spacing: 0.6px;
+    color: #ffffff;
+    text-transform: none;
+    font-weight: 600;
+}
+
+.DesktopClickAboutBuildPcDivStarting p {
+    font-size: 12px;
+    line-height: 1.8em;
+    letter-spacing: 0.6px;
+    color: #ffffffbf;
+    text-transform: none;
+    font-weight: 400;
+}
+.DesktopClickAboutBuildPcDivPrice p {
+    color: #fff;
+    font-size: 25px;
+    font-family: Montserrat;
+}
+
+.DesktopClickAboutBuildPcDivplan p {
+    font-size: 12px;
+    color: #09f1f1;
+}
+.DesktopClickAboutBuildPcDivplan {
+    padding-bottom: 10px;
+    width: 80%;
+    border-bottom: 1px solid rgb(111, 111, 111);
+}
+.DesktopClickAboutBuildPcDivButton {
+    padding-top: 20px;
+}
+
+.DesktopClickAboutBuildPcDivStars {
+    padding-top: 20px;
+}
+.DesktopClickAboutBuildPcDivStars svg {
+    color: rgb(251, 255, 0);
+}
+
+.DesktopClickAboutBuildPcDivStars span {
+    font-size: 12px;
+    line-height: 1.8em;
+    letter-spacing: 0.6px;
+    color: #ffffffbf;
+    text-transform: none;
+    font-weight: 400;
+}
+/* !DesktopClickAboutOverviewCoolingRevi */
+.DesktopClickAboutOverviewCoolingReviAll {
+    width: 100%;
+    /* height: 20vh; */
+    background-color: #141414;
+}
+.DesktopClickAboutOverviewCoolingRevaReclamDivs {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    /* background-color: crimson; */
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.DesktopClickAboutOverviewCoolingRevaReclamDiv {
+    padding: 20px;
+    width: 30%;
+    height: auto;
+    /* background-color: #09f1f1; */
+}
+.DesktopClickAboutOverviewCoolingRevaReclamDivimg {
+    width: 100%;
+    height: auto;
+}
+.DesktopClickAboutOverviewCoolingRevaReclamDivimg img {
+    width: 100% !important;
+    height: 100px !important;
+
+    object-fit: contain;
+}
+.DesktopClickAboutOverviewCoolingRevaReclamDiv p {
+    font-size: 20px !important;
+    line-height: 1.3em !important;
+    letter-spacing: 0.6px !important;
+    color: #fff !important;
+    text-transform: none !important;
+    font-weight: 600 !important;
+    padding-bottom: 0 !important;
+}
+
+.DesktopClickAboutOverviewCoolingReviSafeimg {
+    width: 100%;
+    height: auto;
+}
+.DesktopClickAboutOverviewCoolingReviSafeimg img {
+    width: 100%;
+    height: auto;
+    border-radius: 3%;
+    opacity: 0.7;
+}
+.DesktopClickAboutOvervievGallleryMain {
+    width: 100%;
+    /* height: 20vh; */
+    /* background-color: #870000; */
+}
+.DesktopClickAboutOvervievGallleryAllDiv {
+    display: flex;
+    padding-bottom: 80px;
+    padding-top: 50px;
+    width: 100%;
+    height: auto;
+    background-color: #2f2f2f;
+}
+.DesktopClickAboutOvervievGalllerymainImgDiv {
+    width: 40%;
+    height: auto;
+}
+.DesktopClickAboutOvervievGalllerymainImgDiv img {
+    width: 100%;
+    height: auto;
+}
+.DesktopClickAboutOvervievGalllerymainTextandimg {
+    width: 50%;
+    height: auto;
+}
+.DesktopClickAboutOvervievGalllerymainText h1 {
+    font-size: 31px !important;
+    line-height: 1.3em !important;
+    letter-spacing: 0.6px !important;
+    color: #09f1f1 !important;
+    text-transform: uppercase !important;
+    font-weight: 600 !important;
+    font-family: Montserrat !important;
+}
+.DesktopClickAboutOvervievGalllerymainText p {
+    font-size: 16px !important;
+    line-height: 1.8em !important;
+    letter-spacing: 0.6px !important;
+    color: #ffffffbf !important;
+    text-transform: none !important;
+    font-weight: 400 !important;
+}
+.DesktopClickAboutOvervievGalllerymainTextandimg {
+    padding: 30px;
+    width: 59%;
+    height: auto;
+    /* background-color: rgb(0, 211, 18); */
+}
+.DesktopClickAboutOvervievGalllerymainText {
+    text-align: center;
+    border-radius: 4%;
+    padding: 20px;
+    width: 100%;
+    height: auto;
+    background-color: #212121;
+}
+.DesktopClickAboutOverviewGallerymainimg {
+    padding-top: 30px;
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+    display: flex;
+}
+.DesktopClickAboutOverviewGallerymainimg img {
+    object-fit: cover;
+    padding: 5px;
+
+    cursor: pointer;
+    width: 20%;
+}
+.DesktopClickAboutOverviewGallerymainimg img:hover {
+    border: 1px solid red;
+    background-color: #ff00d9;
+}
+.LargeImageOverlay {
+    padding: 20px;
+    width: 70%;
+    height: auto;
+}
+.LargeImageOverlay img {
+    object-fit: cover;
+}
+.DesktopClickAboutOverviewGalleryreclamimage {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.DesktopClickAboutOverviewGalleryreclamimagediv img {
+    width: 100%;
+    object-fit: cover;
+    height: 500px;
+    border-radius: 20px;
+}
+
+.DesktopClickAboutOverviewGalleryreclamimagediv {
+    width: 49%;
+    object-fit: contain;
+}
+/* !DesktopClickAboutOverviewSpecifationMaina */
+.DesktopClickAboutOverviewSpecifationMain {
+    width: 100%;
+    /* height: 20vh; */
+    /* background-color: #09f1f1; */
+}
+.DesktopClickAboutOverviewSpecifationAllDiv {
+    width: 100%;
+    display: flex;
+    height: auto;
+    padding-top: 50px;
+    justify-content: space-around;
+    /* background-color: #333333; */
+}
+.DesktopClickAboutOverviewSpecifationDiv {
+    width: 50%;
+    padding: 50px;
+    background-color: rgb(51, 51, 51);
+}
+.DesktopClickAboutOverviewSpecifationDiv2 {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    /* background-color: lightskyblue; */
+}
+.DesktopClickAboutOverviewSpecifationDiv2number {
+    max-width: 1200px !important;
+    margin-bottom: 10px;
+    background-color: #ff00cc !important;
+    border-radius: 20px !important;
+    padding: 55px 100px !important;
+}
+.DesktopClickAboutOverviewSpecifationDiv2number p:last-child {
+    font-size: 38px;
+    line-height: 1.5em;
+    letter-spacing: 0.6px;
+    color: #fff;
+    text-transform: none;
+    font-weight: 400;
+}
+.DesktopClickAboutOverviewSpecifationDiv h3 {
+    font-size: 30px;
+    line-height: 0.9em;
+    letter-spacing: 0.6px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.DesktopClickAboutOverviewSpecifationDiv p:last-child {
+    font-size: 15px;
+    line-height: 1.8em;
+    letter-spacing: 0.6px;
+    color: #ffffffbf;
+    text-transform: none;
+    font-weight: 400;
+}
+
+.DesktopClickAboutOverviewSpecifationDiv2 img {
+    width: 85%;
+    border-radius: 3%;
+}
+
+.DesktopClickAboutOverviewSpecifationDiv21 {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    /* background-color: lightskyblue; */
+}
+.DesktopClickAboutOverviewSpecifationDiv2number1 {
+    max-width: 1200px !important;
+    margin-bottom: 10px;
+    background-color: #ff00cc !important;
+    border-radius: 20px !important;
+    padding: 25px 80px !important;
+}
+.DesktopClickAboutOverviewSpecifationDiv2number1 p:last-child {
+    font-size: 38px;
+    line-height: 1.5em;
+    letter-spacing: 0.6px;
+    color: #fff;
+    text-transform: none;
+    font-weight: 400;
+}
+
+.DesktopClickAboutOverviewSpecifationFinishMain {
+    width: 100%;
+    /* height: 20vh; */
+    /* background-color: #ff00cc; */
+}
+.DesktopClickAboutOverviewSpecifationFinishMainImg img {
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    border-radius: 3%;
+    opacity: 0.8;
+}
+
+.DesktopClickAboutOverviewSpecifationDiv a {
+    padding: 15px 40px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    background-color: #fff;
+    color: #000;
+    font-family: Montserrat;
+    border-radius: 10px;
+}
+.DesktopClickAboutOverviewSpecifationDiv a:hover {
+    background-color: #ff00d9;
+    color: white;
+}
+
+.DesktopClickAboutOverviewSpecifationAllParagraf {
+    font-size: 15px;
+    line-height: 1.8em;
+    letter-spacing: 0.6px;
+    color: #ffffffbf;
+    text-transform: none;
+    font-weight: 400;
+}
+
+.LargeImageOverlayFullScreen {
+    width: 30%;
+    height: 20vh;
+    display: block;
+}
+
+.prev-image {
+    padding: 20px;
+    background-color: darkolivegreen;
+}
+
+.arrow {
+    cursor: pointer;
+    position: relative;
+    display: block;
+    width: 50px;
+    height: 50px;
+    border: solid 6px #999;
+    border-radius: 100%;
+    z-index: 1;
+    transition: all 0.2s linear;
+    &:before,
+    &:after {
+        content: "";
+        position: absolute;
+        width: 35%;
+        height: 10%;
+        top: 41%;
+        left: 55%;
+        background: #999;
+        z-index: 2;
+        transform: translate(-50%, -50%) rotate(45deg);
+        transition: all 0.2s linear;
+    }
+    &:after {
+        z-index: 3;
+        top: 59%;
+        left: 55%;
+        transform: translate(-50%, -50%) rotate(-45deg);
+    }
+    &:hover {
+        border: solid 8px #777;
+        &:after,
+        &:before {
+            background: #777;
+        }
+    }
+    &:active {
+        border: solid 8px #111;
+        &:after,
+        &:before {
+            background: #111;
+        }
+    }
+}
+.clicked {
+    border: solid 1px red;
+}
+
+.arrow1 {
+    margin-right: 90px;
+    cursor: pointer;
+    position: relative;
+    display: block;
+    width: 50px;
+    height: 50px;
+    border: solid 6px #999;
+    border-radius: 100%;
+    z-index: 1;
+    transition: all 0.2s linear;
+    &:before,
+    &:after {
+        content: "";
+        position: absolute;
+        width: 35%;
+        height: 10%;
+        top: 41%;
+        left: 55%;
+        background: #999;
+        z-index: 2;
+        transform: translate(-50%, -50%) rotate(150deg);
+        transition: all 0.2s linear;
+    }
+    &:after {
+        z-index: 3;
+        top: 59%;
+        left: 55%;
+        transform: translate(-50%, -50%) rotate(30deg);
+    }
+    &:hover {
+        border: solid 8px #777;
+        &:after,
+        &:before {
+            background: #777;
+        }
+    }
+    &:active {
+        border: solid 8px #111;
+        &:after,
+        &:before {
+            background: #111;
+        }
+    }
+}
+.fullscreen-toggle-container {
+    position: relative;
+    cursor: pointer;
+}
+
+.fullscreen-image-container {
+    /* background-color: #09f1f1; */
+    width: 100%;
+}
+
+.fullscreen-toggle-container.show-fullscreen .fullscreen-image-container {
+    display: block;
+}
+
+.close-fullscreen,
+.prev-image,
+.next-image {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+}
+
+.close-fullscreen:hover,
+.prev-image:hover,
+.next-image:hover {
+    background-color: #555;
+}
+
+.close-fullscreen {
+    top: 20px;
+    right: 20px;
+}
+
+.prev-image {
+    top: 50%;
+    right: 80%;
+}
+
+.next-image {
+    top: 50%;
+    right: 20%;
+}
+
+.fullscreen-image-container img {
+    cursor: pointer;
+}
+/* !DesktopClickAboutOverviewSpecifationChasssisMain */
+.DesktopClickAboutOverviewSpecifationChasssisMain {
+    width: 100%;
+    /* height: 20vh; */
+    display: flex;
+    background-color: rgb(40, 40, 40);
+}
+.DesktopClickAboutOverviewSpecifationChasssispecifationimg img {
+    width: 100%;
+}
+
+.DesktopClickAboutOverviewSpecifationChasssispecifationContanier {
+    max-width: 1200px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    padding: 30px 50px;
+    margin-top: 15px;
+}
+.DesktopClickAboutOverviewSpecifationChasssispecifationimg {
+    width: 50%;
+}
+
+.DesktopClickAboutOverviewSpecifationChasssispecifation {
+    width: 50%;
+    height: auto;
+    /* background-color: #ff7300; */
+}
+.DesktopClickAboutOverviewSpecifationChasssispecifationMain {
+    width: 50%;
+    height: auto;
+    background-color: rgb(40, 40, 40);
+}
+
+.DesktopClickAboutOverviewSpecifationChasssispecifationContanierInside {
+    border-radius: 20px;
+    padding: 50px;
+    background-color: #1414145c;
+}
+.DesktopClickAboutOverviewSpecifationChasssispecifationContanierInsideName {
+    border-radius: 5%;
+    background-color: #111;
+    padding: 30px;
+    width: 100%;
+}
+.DesktopClickAboutOverviewSpecifationChasssispecifationContanierInsideName h3 {
+    font-size: 25px !important;
+    line-height: 1.3em !important;
+    letter-spacing: 0.6px !important;
+    color: #fff !important;
+    text-transform: uppercase !important;
+    font-weight: 600 !important;
+    font-family: Montserrat !important;
+}
+.DesktopClickAboutOverviewSpecifationChasssispecifationContanierInsideChasssistext {
+    font-size: 16px !important;
+    line-height: 1.3em !important;
+    letter-spacing: 0.2px !important;
+    color: #ffffffbf !important;
+    text-transform: none !important;
+    font-weight: 400 !important;
+}
+.DesktopClickAboutImageMobileversion {
+    display: none;
+}
+@media only screen and (max-width: 767px) {
+    /* Your mobile-specific styles go here */
+
+    .DesktopsGamingPCsAll {
+        display: block;
+    }
+    .DesktopsGamingPC {
+        width: 100%;
+    }
+    .DesktopClickAboutBuildPcDivSpecificationnAll {
+        padding-left: 20px;
+        padding-top: 10px;
+    }
+    .DesktopClickAboutBuildPcDivSpecificationnAll p:first-child {
+        font-size: 10px;
+    }
+    .DesktopClickAboutBuildPcDivButton a {
+        padding: 10px 20px;
+    }
+    .DesktopsGamingPCtextt1 {
+        justify-content: space-around;
+    }
+    .DesktopClickAboutText {
+        width: 100%;
+        padding: 30px;
+    }
+    .DesktopClickAbout {
+        background-image: url(https://ucarecdn.com/1ef5ca36-e4d2-468f-bc2c-9ce4a28377b6/G3MESHIFYBGTOP.png);
+        background-color: #000;
+        height: 1000px;
+        padding-bottom: 101px !important;
+        background-position: left right !important; /* Resmi merkeze alır */
+        background-size: cover !important; /* İçeriği kaplamak için */
+        padding-left: 0 !important;
+    }
+    .DesktopClickAboutImageMobileversion {
+        display: block;
+    }
+    .DesktopClickAboutAllDiv {
+        display: block;
+    }
+    .DesktopClickAboutText p:first-child {
+        font-size: 13px;
+        padding-top: 0px;
+    }
+    .DesktopsGamingPCstartig {
+        font-size: 10px;
+    }
+    .DesktopClickAboutBuildPcDiv {
+        width: 100%;
+    }
+    .DesktopClickAboutOverviewCoolingRevaReclamDivs {
+        display: block;
+    }
+    .DesktopClickAboutOverviewCoolingRevaReclamDiv {
+        width: 100%;
+    }
+}
+
+/* Ekran boyutları 767 piksel ve altındaysa geçerli olacak stil kuralları */
+@media only screen and (max-width: 767px) {
+    .DesktopClickAboutOvervievGallleryMain {
+        width: 100%;
+        padding-top: 20px;
+        padding-bottom: 0;
+        height: auto;
+    }
+
+    .DesktopClickAboutOvervievGallleryAllDiv {
+        flex-direction: column;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        width: 100%;
+        height: auto;
+    }
+
+    .DesktopClickAboutOvervievGalllerymainTextandimg {
+        padding: 15px;
+        width: 100%;
+        height: auto;
+    }
+
+    .DesktopClickAboutOvervievGalllerymainImgDiv {
+        width: 100%;
+        height: auto;
+    }
+
+    .DesktopClickAboutOvervievGalllerymainImgDiv img {
+        width: 100%;
+        height: auto;
+    }
+
+    .DesktopClickAboutOvervievGalllerymainText h1 {
+        font-size: 24px !important;
+        line-height: 1.3em !important;
+        letter-spacing: 0.6px !important;
+    }
+
+    .DesktopClickAboutOvervievGalllerymainText p {
+        font-size: 14px !important;
+        line-height: 1.8em !important;
+    }
+
+    .DesktopClickAboutOverviewGallerymainimg img {
+        width: 20%;
+    }
+
+    .DesktopClickAboutOverviewGalleryreclamimage {
+        display: block;
+    }
+
+    .DesktopClickAboutOverviewGalleryreclamimagediv {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .DesktopClickAboutOverviewGalleryreclamimagediv img {
+        height: auto;
+        border-radius: 10px;
+    }
+    .LargeImageOverlay {
+        padding: 0;
+        width: 100%;
+        height: auto;
+    }
+    .DesktopClickAboutOvervievGalllerymainText {
+        display: none;
+    }
+    .DesktopClickAboutOverviewGalleryreclamimagediv {
+        padding-top: 30px;
+        padding-left: 30px;
+        display: block;
+        justify-content: center;
+        width: 100%;
+    }
+    .DesktopClickAboutOverviewGalleryreclamimagediv img {
+        width: 90%;
+        border-radius: 20px;
+    }
+    .DesktopClickAboutOverviewSpecifationAllDiv{
+        display: block;
+    }
+    .DesktopClickAboutOverviewSpecifationDiv2{
+        width: 100%;
+    }
+    .DesktopClickAboutOverviewSpecifationDiv2number{
+        padding: 10px !important;
+    }
+
+    .DesktopClickAboutOverviewSpecifationDiv2number{
+        background-color: #8201ff4d !important;
+        font-size: 15px;
+    }
+    .DesktopClickAboutOverviewSpecifationDiv2number p:first-child{
+        color: white;
+    }
+    .DesktopClickAboutOverviewSpecifationDiv2number p:last-child{
+        font-size: 20px;
+    }
+    .DesktopClickAboutOverviewSpecifationDiv{
+        width: 100%;
+    }
+    .DesktopClickAboutOverviewSpecifationDiv21{
+        width: 100%;
+    }
+    .DesktopClickAboutOverviewSpecifationDiv2number1{
+        padding: 10px 10px !important;
+    }
+    .DesktopClickAboutOverviewSpecifationDiv2number1 p:last-child{
+        font-size: 20px;
+    }
+    .DesktopClickAboutOverviewSpecifationChasssispecifationMain{
+        width: 100%;
+    }
+    .DesktopClickAboutOverviewSpecifationChasssispecifationContanierInside {
+        padding: 0;
+    }
+    .DesktopClickAboutOverviewSpecifationChasssisMain{
+        text-align: center;
+        display: block;
+    }
+    .DesktopClickAboutOverviewSpecifationChasssispecifationContanier{
+        padding: 0 !important;
+    }
+    .DesktopClickAboutOverviewSpecifationChasssispecifationimg{
+        width: 100%;
+    }
+}

@@ -1,0 +1,294 @@
+.EntryMain {
+    width: 100%;
+    /* height: 30vh; */
+    background-color: rgb(0, 0, 0);
+    padding-bottom: 20%;
+}
+.EntryBlogMainBlog {
+    display: flex;
+    width: 100%;
+    /* height: 20vh; */
+    /* background-color: blueviolet; */
+}
+.EntryBlogShowDiv {
+    padding-left: 170px;
+    width: 50%;
+    height: auto;
+    /* background-color: rgb(200, 255, 0); */
+}
+
+.EntryBlogShowDiv img {
+    height: auto;
+    width: 80%;
+}
+
+.EntryBlogShowDivText h2 {
+    padding-bottom: 5%;
+    margin-left: 10%;
+    font-size: 20px;
+    font-family: "Russo One", sans-serif;
+    font-size: 30px;
+    height: auto;
+    /* background-color: brown; */
+}
+.EntryBlogShowDivTextp {
+    font-family: "Russo One", sans-serif;
+    font-size: 20px;
+    height: auto;
+    /* background-color: brown; */
+}
+.EntryBlogShowDivTextimg img {
+    width: 30%;
+    top: 35%;
+    left: -7%;
+    transform: rotate(270deg);
+    position: absolute;
+}
+
+.EntryBlogShowDivText {
+    padding-top: 10%;
+    z-index: 150;
+    margin-top: -50px;
+    width: 100%;
+    display: block;
+    color: white;
+}
+
+.EntryBlogTopStories {
+    width: 40%;
+    /* height: 20vh; */
+    /* background-color: blue; */
+}
+.EntryBlogTopStoriesDivs {
+    cursor: pointer;
+
+    display: flex;
+    width: 90%;
+    /* height: 10vh; */
+    /* background-color: blueviolet; */
+}
+.EntryBlogTopStoriesDiv {
+    width: 50%;
+    height: auto;
+    background-color: rgb(0, 0, 0);
+}
+.EntryBlogTopStoriesDivLogo {
+    padding-right: 20px;
+    /* width: 5%; */
+    height: auto;
+    /* background-color: rgb(255, 25, 0); */
+}
+.EntryBlogTopStoriesDivLogo121 {
+    padding: 0.5px 2px;
+    border-radius: 50%;
+    background-color: dimgrey;
+}
+.EntryBlogh2 {
+    line-height: 1;
+    font-weight: 700;
+    color: white;
+    font-size: 20px;
+}
+.EntryBlogh2:hover {
+    text-decoration: underline solid rgb(0, 255, 0);
+}
+.EntryBlogh2 {
+    width: 80%;
+}
+.EntryBlogTopStoriesDivtime a {
+    color: rgb(94, 255, 0);
+}
+.EntryBlogTopStoriesDivtime time {
+    padding-left: 10px;
+    color: rgb(103, 103, 103);
+}
+.EntryBlogTopStoriesImage {
+    width: 30%;
+}
+.EntryBlogTopStoriesImage img {
+    width: 100%;
+}
+/* !BlogStorystreammain */
+.BlogStorystreammain {
+    width: 100%;
+    /* height: 20vh; */
+    padding-top: 10%;
+    /* background-color: rgb(255, 238, 0); */
+}
+.BlogStorystreamAllDiv {
+    display: flex;
+    width: 100%;
+    /* height: 10vh; */
+    /* background-color: rgb(0, 255, 68); */
+}
+
+.BlogStorystreamToday {
+    width: 60%;
+    /* height: 20vh; */
+    /* background-color: rgb(27, 27, 27); */
+}
+.BlogStorystreamMostPopular {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    /* height: 20vh; */
+    /* background-color: blueviolet; */
+}
+/* .BlogStorystreamTodayCont {
+    
+    background-color: brown;
+} */
+.BlogStorystreamMostPopularDivs {
+    width: 90%;
+    /* height: 20vh; */
+    background-color: lawngreen;
+}
+.BlogStorystreamMostPopularDiv {
+    width: 60%;
+    padding-bottom: 150px;
+
+    height: auto;
+    background-color: aqua;
+}
+
+/* ?SWDSDSDSD */
+
+.EntryBlogTopStoriesDiv1 {
+    border-bottom: rgb(56, 136, 255) solid 1px;
+    width: 100%;
+    height: auto;
+    padding-bottom: 20px;
+    /* background-color: rgb(55, 0, 255); */
+}
+.EntryBlogTopStoriesDivLogo1 {
+    padding-right: 20px;
+    /* width: 5%; */
+    height: auto;
+    /* background-color: rgb(255, 25, 0); */
+}
+.EntryBlogTopStoriesDivLogo1211 {
+    padding: 0.5px 2px;
+    border-radius: 50%;
+    background-color: dimgrey;
+}
+.EntryBlogh21 {
+    line-height: 1;
+    font-weight: 700;
+    color: white;
+    font-size: 20px;
+}
+.EntryBlogh21:hover {
+    color: rgb(0, 255, 94);
+}
+.EntryBlogh21 {
+    width: 80%;
+}
+.EntryBlogTopStoriesDivtime1 a {
+    color: rgb(255, 255, 255);
+}
+.EntryBlogTopStoriesDivtime1 time {
+    padding-left: 10px;
+    color: rgb(255, 255, 255);
+}
+
+.EntryBlogTopStoriesImage1 img {
+    width: 100%;
+}
+.EntryBlogTopStoriesDivss {
+    border-radius: 30px;
+    width: 60%;
+    height: 80vh;
+    background-color: rgb(0, 85, 255);
+}
+.EntryBlogTopStoriesIconm {
+    right: -18%;
+    position: absolute;
+    transform: rotate(270deg);
+    width: 60%;
+}
+.EntryBlogTopStoriesIconm h1 {
+    font-size: 80px;
+}
+.BlogStorystreamTodayCont {
+    width: 80%;
+    /* height: 30vh; */
+    /* background-color: aqua; */
+}
+.BlogStorystreamTodayContDivvStorystream {
+    width: 80%;
+    height: auto;
+    /* background-color: blue; */
+}
+.BlogStorystreamTodayContDiCard {
+    width: 100%;
+    height: 20vh;
+}
+.BlogStorystreamTodayContDivvStorystreamFlx h2 {
+    color: white;
+    font-weight: 600;
+}
+.BlogStorystreamTodayContDivvStorystream span {
+    font-size: 12px;
+    color: rgba(148 148 148);
+}
+.BlogStorystreamTodayContDivvStorystream p {
+    color: rgb(0, 255, 0);
+}
+.BlogStorystreamTodayContDiCard {
+    color: white;
+}
+.BlogStorystreamTodayContDivs:hover {
+    background-color: rgb(46, 46, 46);
+}
+.BlogStorystreamTodayContDivs {
+    cursor: pointer;
+    width: 100%;
+    /* background-color: rgb(46, 46, 46); */
+    padding: 20px;
+    border-top: 1px silid black;
+    border-bottom: 1px solid black;
+}
+.BlogStorystreamTodayContDiCard {
+    width: 80%;
+    height: auto;
+}
+.BlogStorystreamTodayContDiCard iframe {
+    border: none;
+    max-width: 500px;
+    min-width: 300px;
+    min-height: 550px;
+    display: block;
+    width: 100%;
+}
+
+@media only screen and (max-width: 767px) {
+    .EntryBlogMainBlog {
+        display: block;
+    }
+    .EntryBlogShowDiv{
+        width: 100%;
+        padding: 0;
+    }
+    .EntryBlogShowDiv img{
+        width: 100%;
+    }
+    .EntryBlogShowDivTextimg{
+        display: noe;
+    }
+    .EntryBlogTopStories{
+        width: 100%;
+    }
+    .EntryBlogTopStoriesDivs{
+        width: 100%;
+    }
+    .BlogStorystr{
+        width: 100%;
+    }
+
+    .BlogStorystreamAllDiv{
+        display: block;
+    }
+    .EntryBlogTopStoriesIconm{
+        display: none !important;
+    }
+}

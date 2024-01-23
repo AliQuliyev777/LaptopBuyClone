@@ -1,0 +1,227 @@
+
+
+.text {
+    position: absolute;
+    text-align: center;
+    top: 30px;
+}
+
+/*---------------------
+  HAMBURGER MENU
+  ----------------------*/
+
+.hamburger-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 60px;
+    cursor: pointer;
+    z-index: 50000000000 !important;
+    background: #090909;
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+}
+
+.hamburger-menu .bar,
+.hamburger-menu .bar:after,
+.hamburger-menu .bar:before {
+    width: 30px;
+    height: 3px;
+}
+
+.hamburger-menu .bar {
+    position: relative;
+    transform: translateY(10px);
+    background: rgb(255, 255, 255);
+    transition: all 0ms 300ms;
+}
+
+.hamburger-menu .bar.animate {
+    background: rgb(255, 255, 255);;
+}
+
+.hamburger-menu .bar:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 10px;
+    background: rgb(255, 255, 255);;
+    transition:
+        bottom 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1),
+        transform 300ms cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.hamburger-menu .bar:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 10px;
+    background: rgb(255, 255, 255);;
+    transition:
+        top 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1),
+        transform 300ms cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.hamburger-menu .bar.animate:after {
+    top: 0;
+    transform: rotate(45deg);
+    transition:
+        top 300ms cubic-bezier(0.23, 1, 0.32, 1),
+        transform 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.bar.animate:before {
+    bottom: 0;
+    transform: rotate(-45deg);
+    transition:
+        bottom 300ms cubic-bezier(0.23, 1, 0.32, 1),
+        transform 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+/*---------------------
+  Mobiles Menu 
+  ----------------------*/
+/*---------------------
+      Mobiles Menu - Design 
+      ----------------------*/
+
+.mobile-menu ul {
+    margin: 0;
+    padding: 0;
+}
+
+.mobile-menu li {
+    font-size: 20px;
+    line-height: 30px;
+    margin: 0;
+    overflow: hidden;
+    padding: 5px;
+    position: relative;
+    text-align: left;
+    text-transform: uppercase;
+    padding-left: 15px;
+}
+
+.mobile-menu li:first-child {
+    margin-top: 70px;
+}
+
+.mobile-menu li:hover {
+    background: #cccccc;
+}
+
+.mobile-menu li a {
+    text-decoration: none;
+    color: black;
+}
+
+/*---------------------
+      Mobiles Menu - Slide IN 
+      ----------------------*/
+
+.mobile-menu {
+    top: 0;
+    max-width: 250px;
+    left: -100%;
+    width: 100%;
+    background: #ebebeb;
+    color: black;
+    height: 100%;
+    position: fixed;
+    z-index: 9997;
+    overflow-y: auto;
+    -webkit-transform: translate3d(0, 0, 205px);
+    -moz-transform: translate3d(0, 0, 205px);
+    transform: translate3d(0, 0, 205px);
+    -webkit-transition: all 500ms ease-in-out;
+    -moz-transition: all 500ms ease-in-out;
+    transition: all 500ms ease-in-out;
+}
+
+.mobile-menu.activemenumobile {
+    left: 0;
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    -webkit-transition: all 500ms ease-in-out;
+    -moz-transition: all 500ms ease-in-out;
+    transition: all 500ms ease-in-out;
+}
+
+/*---------------------
+      Mobiles Menu - Dropdown Submenu
+      ----------------------*/
+
+.has-children:hover {
+    cursor: hand;
+}
+
+.children {
+    display: none;
+}
+
+.mobile-menu .children li:first-child {
+    margin-top: 0px;
+}
+
+.icon-arrow {
+    position: absolute;
+    display: block;
+    font-size: 0.7em;
+    color: black;
+    top: 5px;
+    right: 10px;
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    transition: 0.6s;
+    -webkit-transition: 0.6s;
+    -moz-transition: 0.6s;
+}
+
+.icon-arrow:after {
+    content: "\25BC";
+}
+
+.icon-arrow.open {
+    transform: rotate(-180deg);
+    -webkit-transform: rotate(-180deg);
+    -moz-transform: rotate(-180deg);
+    transition: 0.6s;
+    -webkit-transition: 0.6s;
+    -moz-transition: 0.6s;
+}
+@media only screen and (min-width: 1200px) {
+    /* Ekran 768 pikselden küçük olduğunda bu kuralları uygula */
+
+    /* Örneğin, belirli bir bölümü gizle */
+    .hamburger-menu {
+        display: none !important;
+    }
+
+}
+
+.hamburger-menu-image {
+    width: 40%;
+    height: auto;
+}
+.hamburger-menu-image img {
+    width: 100%;
+}
+.hamburger-menumain {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hamburger-menu-logo {
+    width: 30%;
+    background-color: aqua;
+}
+.hamburger-menu-logo ul {
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+}

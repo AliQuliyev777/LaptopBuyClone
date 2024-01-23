@@ -1,0 +1,267 @@
+.PreBuiltPCMain {
+    width: 100%;
+    text-align: center;
+    background-color: rgb(22, 22, 22);
+}
+.PreBuiltPCDesktops {
+    padding-top: 50px;
+}
+.PreBuiltPCMain h1 {
+    font-size: 40px;
+    font-weight: 800;
+    color: white;
+}
+.PreBuiltPCDesktopsTop2paneldropdownul {
+    padding: 10px;
+    height: auto;
+
+    background-color: white;
+}
+.PreBuiltPCDesktopsTop2paneldropdownul p:hover {
+    background-color: black;
+    color: white;
+}
+.selectedOptionText {
+    width: 100%;
+    font-size: 13px;
+    padding: 30%;
+}
+.PreBuiltPCDesktopsTop2paneldropdown {
+    background-color: rgb(206, 127, 255);
+    z-index: 1000;
+    position: absolute;
+    right: 10%;
+}
+/* Add a class for the dropdown options */
+.PreBuiltPCDesktopsTop2paneldropdown p.dropdownOption {
+    max-width: 200px; /* Adjust the max-width as needed */
+}
+
+.PreBuiltPCDesktopsTop2paneldropdown span {
+    width: 100%;
+    cursor: pointer;
+    color: white;
+    padding: 10px 130px;
+}
+.PreBuiltPCDesktops {
+    width: 100%;
+
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.selectedOptionTextddiv {
+    width: 100%;
+    height: auto;
+    /* background-color: blue; */
+}
+.PreBuiltPCDesktopsTop2flex {
+    width: 60%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: rgb(35, 35, 35); */
+}
+
+/* !PreBuiltPcFiltersMenuMain */
+.PreBuiltPcFiltersMenuMain {
+    width: 100%;
+    padding-top: 50px;
+    height: auto;
+    background-color: rgb(22, 22, 22);
+}
+.snize-product-filters-list {
+    width: 20%;
+    margin-right: 20px;
+    position: absolute;
+    z-index: 1;
+    background-color: brown;
+    display: none;
+}
+.snize-filters-dropdown-content {
+    width: 10%;
+    display: block;
+    height: auto;
+    /* background-color: blueviolet; */
+}
+.PreBuiltPcFiltersMenuMaincheckbox {
+    cursor: pointer;
+    display: flex;
+}
+.PreBuiltPcFiltersMenuMaincheckbox p {
+    cursor: pointer;
+    text-align: center;
+    margin-left: 10px;
+    padding: 3px;
+    background-color: rgb(255, 255, 255);
+}
+
+.open {
+    cursor: pointer;
+    /* background-color: rgb(36, 36, 36); */
+    display: block;
+    margin-left: 10px;
+    color: white;
+    /* width: 10%; */
+}
+.snize-filter-checkbox {
+    cursor: pointer;
+
+    display: block;
+}
+/* !PreBuiltPCDesktops */
+.PreBuiltPCDesktopsMain {
+    width: 100%;
+
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    padding-top: 80px;
+    /* background-color: rgb(6, 205, 205); */
+}
+
+.PreBuiltPCDetailCard {
+    width: 20%;
+    cursor: pointer;
+    height: auto;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    /* background-color: blue; */
+}
+.PreBuiltPCDetailCardimg {
+    display: flex;
+    justify-content: center;
+}
+.PreBuiltPCDetailCardimg img {
+    max-width: 100%;
+    max-height: 300px;
+}
+
+.PreBuiltPCDetailCardtext span {
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 1.4em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    margin: 0 0 10px 0;
+    color: white;
+}
+
+.PreBuiltPCDetailCard {
+    transition: width 0.5s;
+}
+
+.PreBuiltPCDetailCartDetail ul li {
+    margin-left: 20px;
+    color: rgb(229, 229, 229);
+    list-style: initial;
+    display: list-item;
+    line-height: 1.3;
+    font-size: 13px;
+}
+.PreBuiltPCDetailCartDetail ul li p {
+    font-size: 15px;
+}
+.PreBuiltPCDetailCartDetaisnize-price-list {
+    color: white;
+    text-align: center;
+}
+.PreBuiltPCDetailCartDetaisnize-price-list p span {
+    color: red;
+}
+.PreBuiltPCDesktopsMainMobile {
+    width: 100%;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 100px;
+    height: auto;
+}
+.PreBuiltPCDetailCard12 {
+    width: 20%;
+    cursor: pointer;
+    height: auto;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    /* background-color: blue; */
+}
+
+@media only screen and (min-width: 1200px) {
+    .PreBuiltPcFiltersMobileButtton {
+        display: none;
+    }
+    /* Ekran 768 pikselden küçük olduğunda bu kuralları uygula */
+
+    /* Örneğin, belirli bir bölümü gizle */
+    .PreBuiltPCDesktopsTop2paneldropdownul i {
+        display: none;
+    }
+}
+
+.PreBuiltPcFiltersMenuMainMobile {
+    width: 100%;
+}
+.PreBuiltPCDesktopsTop2paneldropdownulicon {
+    position: absolute;
+    top: 20%;
+    right: 0;
+}
+.PreBuiltPCDesktopsTop2paneldropdownulicon span {
+    color: wheat;
+    padding: 10px;
+}
+
+.PreBuiltPCDesktopsMainikigoster {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    justify-items: center;
+    gap: 0;
+    align-items: center;
+    padding-left: 10%;
+}
+.PreBuiltPCDesktopsMainbirletir {
+    width: 100%;
+
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    padding-top: 80px;
+}
+@media only screen and (min-width: 1200px) {
+    .PreBuiltPCDesktopsMainikigoster .PreBuiltPCDetailCard {
+        width: 100%; /* Genişliği %50 yap */
+        display: flex;
+
+        margin-left: 0;
+        margin: 50px;
+    }
+    .PreBuiltPCDetailCardflexx{
+        display: block;
+        width: 100%;
+    }
+    .PreBuiltPCDesktopsMainikigoster .PreBuiltPCDetailCard .PreBuiltPCDetailCartDetail li {
+        list-style: none;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .PreBuiltPCDesktopsMainikigoster .PreBuiltPCDetailCard12 {
+        width: 100%; /* Genişliği %50 yap */
+        display: flex;
+
+        margin-left: 0;
+        margin: 50px;
+    }
+    .PreBuiltPCDetailCardflexx{
+        display: block;
+        width: 100%;
+    }
+    .PreBuiltPCDesktopsMainikigoster .PreBuiltPCDetailCard12 .PreBuiltPCDetailCartDetail li {
+        list-style: none;
+    }
+}

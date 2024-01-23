@@ -1,0 +1,1077 @@
+/* !ReklamDesktop */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.HomeImage {
+    width: 100%;
+}
+
+.ImageDiv img {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: auto;
+}
+.ImagetextDiv {
+    position: absolute;
+    top: 40%;
+    left: 27%;
+    transform: translateX(-50%) translateY(-50%);
+
+    z-index: 10;
+    width: 50%;
+    /* background-color: yellow; */
+    height: 10vh;
+}
+.ImagetextDiv h2 {
+    font-size: 60px;
+    line-height: 1.3em;
+    letter-spacing: 0.6px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: Montserrat;
+}
+.ImagetextDiv p {
+    color: #fff !important;
+    font-family: Montserrat, sans-serif;
+    opacity: 0.75;
+    font-size: 21px;
+    line-height: 32px;
+}
+.ImageButton {
+    height: 20vh;
+    width: 100%;
+    margin-top: 30px;
+    /* background-color: red; */
+}
+.show span:hover {
+    background-color: red !important;
+}
+
+.ImageButton span {
+    padding: 15px 35px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 10px;
+    background-color: #ed1c2400;
+    color: #fff;
+    border-style: solid;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+}
+
+/* !ViewsDesktopCss */
+
+.ViewsDesktop {
+    width: 100%;
+    /* height: 30vh; */
+    background-color: #1c1c20;
+}
+.ViewsDesktop h2 {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 50px;
+    line-height: 1.3em;
+    letter-spacing: 0.6px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: Montserrat;
+}
+.ViewsDesktopDiv {
+    width: 100%;
+    padding-top: 30px;
+    background-color: #1c1c20;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 50px;
+    padding-bottom: 40px;
+}
+.ViewsDesktopmodule1 {
+    width: 90%;
+    height: auto;
+}
+.ViewsDesktopmodule1 img {
+    border-radius: 3%;
+    width: 90%;
+    height: auto;
+}
+.ViewsDesktopmodule2 {
+    width: 90%;
+    height: auto;
+}
+.ViewsDesktopmodule2 img {
+    border-radius: 3%;
+    width: 90%;
+    height: auto;
+}
+.ImagetextDiv1 {
+    position: absolute;
+    bottom: -29%;
+    left: 7%;
+
+    z-index: 10;
+    width: 90%;
+    /* background-color: yellow; */
+    height: 10vh;
+}
+.ImagetextDiv1 h4 {
+    width: 20%;
+    text-align: center;
+    font-size: 30px !important;
+    line-height: 1em !important;
+    letter-spacing: 0px !important;
+    color: #fff !important;
+    text-transform: uppercase !important;
+    font-weight: 800 !important;
+    text-shadow: 0px 0px 10px #333333 !important;
+    font-family: Montserrat !important;
+}
+.ImagetextDiv1 p {
+    color: #fff !important;
+    font-family: Montserrat, sans-serif;
+    opacity: 0.75;
+    font-size: 21px;
+    line-height: 32px;
+}
+.ImageButton1 {
+    height: 20vh;
+    width: 50%;
+    margin-top: 30px;
+    /* background-color: red; */
+}
+
+.ImageButton1 span {
+    margin-left: 30px;
+    padding: 15px 35px;
+    font-size: 15px !important;
+    text-transform: uppercase !important;
+    font-weight: 600 !important;
+    border-radius: 10px !important;
+    background-color: red;
+    color: #fff !important;
+    border-style: solid !important;
+    border-top-width: 1px !important;
+    border-right-width: 1px !important;
+    border-bottom-width: 1px !important;
+    border-left-width: 1px !important;
+}
+/* *HOT DEALS  SEASON */
+
+.ImagetextDiv2 {
+    margin-top: 15px;
+    margin-right: 0;
+    margin-bottom: 15px;
+
+    position: absolute;
+    bottom: -60%;
+    left: 53%;
+
+    z-index: 10;
+    /* width: 100%; */
+    /* overflow-x: hidden !important; */
+    /* background-color: yellow; */
+    /* height: 10vh; */
+}
+.ImagetextDiv2 > p {
+    width: 70%;
+    font-size: inherit !important;
+    font-family: inherit !important;
+    text-align: inherit !important;
+    color: inherit !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    font-size: inherit !important;
+    font-family: inherit !important;
+    text-align: inherit !important;
+    color: inherit !important;
+    margin: 0 !important;
+    color: white;
+    padding: 0 !important;
+}
+.ImagetextDiv2 h4 {
+    width: 25%;
+    text-align: center;
+    font-size: 30px !important;
+    line-height: 1em !important;
+    letter-spacing: 0px !important;
+    color: #fff !important;
+    text-transform: uppercase !important;
+    font-weight: 700 !important;
+    text-shadow: 0px 0px 10px #333333 !important;
+    font-family: Montserrat !important;
+}
+.ImagetextDiv2 h4 > span {
+    color: yellow;
+}
+.ImagetextDiv2 p {
+    color: #fff !important;
+    font-family: Montserrat, sans-serif;
+    font-size: 21px;
+    line-height: 32px;
+}
+.ImageButton2 {
+    height: 20vh;
+    width: 50%;
+    margin-top: 20px;
+    /* background-color: red; */
+}
+
+.ImageButton2 span {
+    margin-left: 30px;
+    padding: 15px 35px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 10px;
+    background-color: red;
+    color: #fff;
+    border-style: solid;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+}
+/* !TopProduct */
+.TopProduct {
+    padding-top: 30px;
+    /* margin-top: 15%; */
+    width: 100%;
+    /* height: 40vh; */
+    background-color: #080808;
+}
+.TopProduct h4 {
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 30px !important;
+    line-height: 1.5em !important;
+    letter-spacing: 0px !important;
+    color: #fff !important;
+    text-transform: uppercase !important;
+    font-weight: 400 !important;
+    font-family: Montserrat !important;
+}
+.TopProductDesktopAll {
+    width: 100%;
+    /* height: 30vh; */
+    /* background-color: #1c1c20; */
+    display: grid;
+    grid-template-columns: 20% 14% 20% 14%;
+    grid-gap: 10px; /* İsteğe bağlı: Hücreler arasına boşluk ekler */
+
+    /* display: flex; */
+    justify-content: space-around;
+    align-items: center;
+}
+.TopProductDesktop1 {
+    line-height: 30px;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    height: auto;
+}
+
+.TopProductDesktop1 img {
+    width: 100%;
+}
+.TopProductDesktopText {
+    font-size: 15px !important;
+    color: #fff !important;
+    font-family: Montserrat !important;
+}
+.TopProductDesktopText {
+    line-height: inherit !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    text-align: inherit !important;
+}
+.TopProductDesktopText > p {
+    font-size: inherit !important;
+    font-family: inherit !important;
+    text-align: inherit !important;
+    color: inherit !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.gf_product-prices span {
+    color: #ed1c24 !important;
+    font-weight: 900 !important;
+    font-size: 20px !important;
+    font-family: Montserrat !important;
+}
+/* !NewProduct */
+
+.NewProduct {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 50vh; */
+    background-color: #1c1c20;
+}
+.NewProductAllDiv {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    max-width: 1800px;
+    padding-top: 10px;
+    backdrop-filter: brightness(15%) blur(5px);
+    width: 90%;
+    border-radius: 20px;
+    background-image: url(https://cdn.shopify.com/s/files/1/0228/7629/1136/files/20230531_141137.png?v=1685735618) !important;
+    opacity: 1;
+    padding-top: 80px;
+    padding-bottom: 500px;
+    background-color: #000;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.NewProductDiv1 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    backdrop-filter: brightness(100%) blur(3px);
+    background-color: #1c1c2097; /* Arka planı biraz koyulaştırır */
+}
+.NewProductDivimg {
+    padding-left: 40px;
+    /* display: flex; */
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: auto;
+    /* background-color: red; */
+}
+.NewProductDivimg img {
+    width: 40%;
+    height: auto;
+}
+.NewProductDivText {
+    text-align: center;
+    width: 45%;
+    height: auto;
+    /* background-color: yellow; */
+}
+
+.NewProductDivtext-edit h4 {
+    text-align: center;
+    font-size: 60px !important;
+    line-height: 1em !important;
+    letter-spacing: 0px !important;
+    color: #fff !important;
+    text-transform: uppercase !important;
+    font-weight: 800 !important;
+    font-family: Montserrat !important;
+}
+.gf_gs-text-paragraph-1 {
+    font-size: 16px !important;
+    line-height: 1.6em !important;
+    letter-spacing: 0px !important;
+    color: #fff !important;
+    text-transform: none !important;
+    font-weight: 400 !important;
+    font-family: Montserrat !important;
+}
+.gf_gs-text-paragraph-1 p {
+    font-size: inherit !important;
+    font-family: inherit !important;
+    text-align: inherit !important;
+    color: inherit !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.NewProductButton {
+    position: absolute;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 900;
+    background-color: #fff;
+    border-color: #fff;
+    border-radius: 15px;
+    color: #000;
+    width: 20%;
+    font-family: Montserrat;
+    cursor: pointer;
+    padding: 20px;
+    right: 13%;
+    top: 85%;
+    transition: 1s all;
+}
+.NewProductButton:hover {
+    color: white;
+    background-color: rgb(15, 15, 15) !important;
+    cursor: pointer !important;
+}
+/* !NewProduct */
+.PRoductLogo {
+    width: 100%;
+    height: 30vh;
+    background-color: #1c1c20;
+    display: flex;
+}
+.PRoductLogoIMITATED {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-radius: 3%;
+    width: 80%;
+    height: auto;
+
+    background-color: #100f0f;
+}
+.PRoductLogoIMITATED img {
+    width: 40%;
+    height: auto;
+}
+.PRoductLogoIMITATEDtext > h4 {
+    font-size: 40px !important;
+    line-height: 1.5em !important;
+    letter-spacing: 0px !important;
+    color: #fff !important;
+    text-transform: uppercase !important;
+    font-weight: 400 !important;
+    font-family: Montserrat !important;
+}
+/* !slider */
+.Slide {
+    /* overflow-y: hidden; */
+    overflow-x: hidden;
+    width: 100%;
+    height: 80vh;
+}
+.slick-dots li button:before {
+    font-size: 20px !important;
+
+    color: #ed1c24 !important;
+}
+.Slide ul {
+    width: 50% !important;
+    bottom: -160% !important;
+    right: 23% !important;
+}
+.slidetext {
+    color: white;
+    width: 10%;
+    position: absolute;
+}
+.slick-slider {
+    width: 100%;
+}
+
+.slick-initialized {
+    height: 30vh;
+    object-fit: cover;
+}
+.Box1 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 25px;
+    position: absolute;
+    opacity: 80%;
+    /* background-color: rosybrown; */
+    width: 100%;
+    top: 30%;
+    text-align: center;
+    /* height: 20vh; */
+    color: white;
+    padding: 0 !important;
+}
+
+.NewProductButton2 {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 900;
+    background-color: #fff;
+    border-color: #fff;
+    border-radius: 15px;
+    color: #000;
+    width: 20%;
+    font-family: Montserrat;
+    cursor: pointer;
+    padding: 20px;
+    transform: rotate(25%);
+}
+@keyframes text-focus-in {
+    0% {
+        -webkit-filter: blur(12px);
+        filter: blur(12px);
+        opacity: 0;
+    }
+    100% {
+        -webkit-filter: blur(0px);
+        filter: blur(0px);
+        opacity: 1;
+    }
+}
+
+.NewProductButton2:hover {
+    animation: text-focus-in 0.1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+    background-color: greenyellow;
+}
+.Box1 p {
+    font-size: inherit !important;
+    font-family: inherit !important;
+    text-align: inherit !important;
+    color: inherit !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    color: greenyellow !important;
+}
+.Box1 h4 {
+    font-size: 40px !important;
+    line-height: 1em !important;
+    letter-spacing: 0px !important;
+    text-transform: uppercase !important;
+    font-weight: 900 !important;
+    font-family: Montserrat !important;
+}
+
+:root {
+    --color-1: #e928ff;
+    --color-2: #ff1ef0;
+    --color-3: #b900b9;
+    --color-4: #69007e;
+    --color-5: #8a0091;
+    --color-11: #ef8b00;
+    --color-21: #d66b00;
+    --color-31: #c65900;
+    --color-41: #aa5800;
+    --color-51: #b35300;
+}
+.wrapper {
+    padding-top: 10%;
+    text-align: center;
+    /* background: #000; */
+    line-height: 1;
+    min-height: 100%;
+    display: grid;
+    place-items: center;
+    min-height: calc(100vh - 16px);
+}
+.container1 h1:hover {
+    opacity: 100%;
+}
+
+.container1 h1 {
+    cursor: pointer;
+    opacity: 60%;
+
+    font-family: "Exo", sans-serif;
+    font-size: 100px;
+    font-weight: 900;
+
+    margin: auto;
+    text-transform: uppercase;
+    background: linear-gradient(
+        219deg,
+        var(--color-1) 19%,
+        transparent 19%,
+        transparent 20%,
+        var(--color-2) 20%,
+        var(--color-2) 39%,
+        transparent 39%,
+        transparent 40%,
+        var(--color-3) 40%,
+        var(--color-3) 59%,
+        transparent 59%,
+        transparent 60%,
+        var(--color-4) 60%,
+        var(--color-4) 79%,
+        transparent 79%,
+        transparent 80%,
+        var(--color-5) 80%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+@media screen and (min-width: 768px) {
+    h1 {
+        font-size: 6.5rem;
+    }
+}
+.Box3 {
+    text-align: center;
+    opacity: 30%;
+    position: absolute;
+    left: 43%;
+    bottom: 10%;
+    width: 6% !important;
+    height: 80% !important;
+    /* background-color: #8a0091; */
+    transition: 1s all;
+}
+.Box3 span {
+    transition: margin-right 2s ease-in-out;
+    font-size: 4em;
+
+    background: linear-gradient(
+        219deg,
+        var(--color-11) 19%,
+        transparent 19%,
+        transparent 20%,
+        var(--color-21) 20%,
+        var(--color-21) 39%,
+        transparent 39%,
+        transparent 40%,
+        var(--color-31) 40%,
+        var(--color-31) 59%,
+        transparent 59%,
+        transparent 60%,
+        var(--color-41) 60%,
+        var(--color-41) 79%,
+        transparent 79%,
+        transparent 80%,
+        var(--color-51) 80%
+    );
+}
+.Box3 h2 {
+    width: 100%;
+    font-size: inherit;
+    margin: 0;
+    padding: 7.375em 0 0;
+    line-height: 1.07;
+    letter-spacing: -0.5px;
+    background: url(https://ryzen.gg/static/img/socket--logo-8d9722a4be.png) no-repeat;
+    background-position: 50% 0;
+    background-size: auto 4em;
+}
+
+/* !!!XoticPCRating!!! */
+.Xoticplaynow {
+    padding-bottom: 80px;
+    width: 100%;
+    /* height: 50vh; */
+    background-color: #0d0d0e;
+}
+.XoticplaynowBlack {
+    text-align: center;
+    width: 100%;
+    /* height: 30vh; */
+    /* background-color: #8a0091; */
+}
+.XoticplaynowBlack h4 {
+    font-size: 42px !important;
+    line-height: 1.5em !important;
+    letter-spacing: 0px !important;
+    color: #fff !important;
+    text-transform: uppercase !important;
+    font-weight: 400 !important;
+    font-family: Montserrat !important;
+}
+.XoticplaynowBlackIcon {
+    /* height: 20vh; */
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.XoticplaynowBlackIcon svg {
+    padding: 50px;
+    font-size: 50px;
+    color: #ed1c24 !important
+    ;
+}
+.XoticplaynowBlackButton p {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    font-size: 14px !important;
+    line-height: 1.6em !important;
+    letter-spacing: 0px !important;
+    color: #fff !important;
+    text-transform: none !important;
+    font-weight: 400 !important;
+    font-family: Montserrat !important;
+}
+.XoticplayBlackbuttona {
+    padding: 20px;
+    font-size: 20px !important;
+    text-transform: uppercase !important;
+    font-weight: 700 !important;
+    border-radius: 10px !important;
+    background-color: #ed1c24 !important;
+    color: #fff !important;
+    box-shadow: 2.4492935982947064e-16px 4px 21px #000 !important;
+    font-family: Montserrat !important;
+}
+
+.mySwiper121 {
+    width: 100%;
+    display: flex;
+    /* background-color: #8b8b8b; */
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.SwiperOne {
+    width: 100%;
+    /* height: 10vh; */
+    background-color: #1c1c20;
+}
+.SwiperOne h4 {
+    font-size: 20px !important;
+    line-height: 0.85em !important;
+    letter-spacing: 0px !important;
+    color: #ed1c24 !important;
+    text-transform: uppercase !important;
+    font-weight: 300 !important;
+}
+.SwiperOne p {
+    font-size: 20px !important;
+    color: #b4b4b4 !important;
+}
+.PcLife {
+    padding-bottom: 5%;
+    font-size: 35px !important;
+    letter-spacing: 1.4px !important;
+    color: #fff !important;
+    text-transform: uppercase !important;
+    font-weight: 400 !important;
+    font-family: Montserrat !important;
+
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 15px;
+    width: 40%;
+    /* height: 10vh; */
+    background-color: #1c1c20;
+}
+.XoticMainlll {
+    background-color: #1c1c20;
+}
+.ratingDiv {
+    padding-top: 5%;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    /* height: 20vh; */
+    background-color: #1c1c20;
+}
+.ratingDiv1 img {
+    width: 70%;
+    height: auto;
+}
+.ratingDiv1 {
+    text-align: center;
+    width: 30%;
+    height: auto;
+    /* background-color: red; */
+}
+.ratingDiv1 h4 {
+    font-size: 63px !important;
+    line-height: 0.85em !important;
+    letter-spacing: 0px !important;
+    color: #fff !important;
+    text-transform: uppercase !important;
+    font-weight: 300 !important;
+    font-family: Montserrat !important;
+}
+.ratingDiv1 p {
+    font-size: 19px !important;
+    line-height: 1.6em !important;
+    letter-spacing: 0px !important;
+    color: #fff !important;
+    text-transform: none !important;
+    font-family: Montserrat !important;
+    font-weight: 400 !important;
+}
+.XoticLatestNews {
+    padding-bottom: 10%;
+    width: 100%;
+    text-align: center;
+    /* height: 20vh; */
+    /* background-color: #aa5800; */
+}
+.XoticLatestNewsAllDiv {
+    width: 100%;
+    /* height: 20vh; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: blueviolet; */
+}
+.XoticLatestNews1 {
+    width: 23%;
+    text-align: center;
+    /* height: 30vh; */
+    /* background-color: blue; */
+}
+.XoticLatestNews1Img {
+    width: 100%;
+    height: auto;
+}
+.XoticLatestNews1Img img {
+    height: auto;
+    width: 100%;
+    object-fit: contain;
+    border-radius: 10%;
+}
+.XoticLatestNews1 h3 {
+    color: #fff !important;
+    font-size: 14px !important;
+    font-weight: 900 !important;
+    font-family: Montserrat !important;
+}
+.XoticLatestNews1 p {
+    color: #ffffffb3 !important;
+    font-family: Montserrat !important;
+}
+.XoticLatestNews > h3 {
+    padding-bottom: 5%;
+    font-size: 30px !important;
+    line-height: 1.5em !important;
+    letter-spacing: 0px !important;
+    color: #fff !important;
+    text-transform: uppercase !important;
+    font-weight: 400 !important;
+    font-family: Montserrat !important;
+}
+.XoticPcReclamLogos img {
+    object-fit: contain;
+    width: 15%;
+}
+.XoticPcReclamLogos {
+    text-align: center;
+    justify-content: space-around;
+    display: flex;
+    width: 100%;
+    /* height: 20vh; */
+    /* background-color: salmon; */
+    padding-bottom: 5%;
+}
+.XoticPcRatingCustomOptions {
+    padding-bottom: 5%;
+    width: 100%;
+    /* height: 20vh; */
+    /* background-color: coral; */
+}
+
+.XoticPcRatingCustomOptions h3 {
+    font-size: 32px !important;
+    line-height: 1.5em !important;
+    letter-spacing: 0px !important;
+    color: #e0e0e0 !important;
+    text-transform: uppercase !important;
+    font-weight: 400 !important;
+    font-family: Montserrat !important;
+}
+.XoticPcRatingCustomOptions p {
+    font-size: 16px !important;
+    line-height: 1.6em !important;
+    letter-spacing: 0px !important;
+    color: #e0e0e0 !important;
+    text-transform: none !important;
+    font-weight: 400 !important;
+    font-family: Montserrat !important;
+}
+.XoticPcRatingCustomOptions a {
+    text-decoration: underline;
+    color: rgb(208, 0, 0);
+    background-color: transparent;
+}
+.TopProductDesktopText button {
+    border-radius: 15%;
+    min-width: calc(12rem + var(--buttons-border-width) * 2);
+    min-height: calc(4.5rem + var(--buttons-border-width) * 2);
+    background-color: #b11112;
+
+    font-size: 1.5rem;
+    border: 0;
+    padding: 0 3rem;
+    text-decoration: none;
+    color: rgb(var(--color-button-text));
+    transition: box-shadow var(--duration-short) ease;
+    font: inherit;
+}
+@media only screen and (max-width: 767px) {
+    /* Your mobile-specific styles go here */
+
+    /* Example: Hide an element on mobile screens */
+    .ImageDiv{
+        padding-top: 10% !important;
+    }
+    .ImageDiv img {
+        height: 400px;
+        object-fit: cover;
+    }
+    .ImagetextDiv h2 {
+        font-size: 20px;
+        line-height: 1.3em;
+        letter-spacing: 0.6px;
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: 600;
+        font-family: Montserrat;
+    }
+    .ImagetextDiv {
+        position: absolute;
+        top: 20%;
+        left: 27%;
+        transform: translateX(-50%) translateY(-50%);
+
+        z-index: 10;
+        width: 50%;
+        /* background-color: yellow; */
+        height: 10vh;
+    }
+    .ViewsDesktopDiv {
+        display: block;
+    }
+    .ImagetextDiv2 {
+        background-color: #0d0d0e;
+        text-align: center;
+        margin-top: 15px;
+        margin-right: 0;
+        margin-bottom: 15px;
+        position: absolute;
+        bottom: 8%;
+        left: 20%;
+        border-radius: 15%;
+        z-index: 10;
+        opacity: 0.7;
+        height: 20vh;
+        font-size: 8px;
+    }
+    .ImagetextDiv1 {
+        bottom: -10%;
+    }
+    .ViewsDesktopmodule2 {
+        width: 100%;
+    }
+    .ViewsDesktopmodule2 img {
+        width: 100%;
+    }
+    .ImagetextDiv2 h4 {
+        font-size: 8px;
+        width: 100%;
+    }
+    .ImagetextDiv2 > p {
+        width: 100%;
+    }
+    .ViewsDesktop h2 {
+        text-align: center;
+        padding-top: 50px;
+        font-size: 20px;
+        line-height: 1.3em;
+        letter-spacing: 0.6px;
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: 600;
+        font-family: Montserrat;
+    }
+    .ImageButton2 span {
+        margin-left: 30px;
+        padding: 15px;
+        font-size: 15px;
+        text-transform: uppercase;
+        font-weight: 600;
+        border-radius: 10px;
+        background-color: red;
+        color: #fff;
+        border-style: solid;
+        border-top-width: 1px;
+        border-right-width: 1px;
+        border-bottom-width: 1px;
+        border-left-width: 1px;
+    }
+    .ViewsDesktopmodule1 img {
+        border-radius: 3%;
+        width: 100%;
+        height: auto;
+    }
+    .ViewsDesktopmodule1 {
+        width: 100%;
+        padding-bottom: 15px;
+        height: auto;
+    }
+    .ViewsDesktopDiv {
+        padding-left: 0px;
+    }
+    .ImageButton2 a,
+    .ImageButton1 a {
+        display: none;
+    }
+    .TopProductDesktopText button {
+        padding: 5px;
+        text-align: center;
+    }
+    .TopProductDesktopAll {
+        grid-template-columns: 40% 40%;
+    }
+    .NewProductDivText {
+        width: 100%;
+        padding-top: 80%;
+    }
+    .NewProductDivtext-edit h4 {
+        font-size: 40px !important;
+    }
+    .gf_gs-text-paragraph-1 p {
+        font-size: 10px !important;
+        line-height: 15px !important;
+    }
+    .NewProductDivimg img {
+        width: 100%;
+    }
+    .NewProductDivimg {
+        top: 10%;
+    }
+    .NewProductAllDiv {
+        width: 100%;
+        object-fit: fill;
+        background-position: 0%;
+        padding-bottom: 806px !important;
+    }
+    .NewProductButton {
+        width: 70%;
+    }
+    .swiper {
+        width: 100%;
+    }
+    .ratingDiv {
+        padding-bottom: 20%;
+        padding-top: 20%;
+    }
+    .ratingDiv1 h4 {
+        font-size: 35px !important ;
+        font-weight: 900 !important;
+    }
+    .ratingDiv1 p {
+        padding-top: 20px;
+    }
+    .XoticLatestNewsAllDiv {
+        display: block;
+    }
+    .XoticLatestNews1{
+        width: 100%;
+        padding-bottom: 10%;
+    }
+
+}
+
+

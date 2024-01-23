@@ -1,0 +1,134 @@
+.ShoppingCardviewMain {
+    color: rgb(255, 255, 255);
+    background-color: #ffffff;
+    width: 100%;
+    display: flex;
+    /* height: 100vh; */
+}
+.ShoppingCardviewMain2 {
+    /* background-color: rgb(234, 255, 0); */
+    /* width: 75%; */
+    display: flex;
+    background-color: #ffffff;
+
+    /* height: 100vh; */
+}
+.ShoppingCardviewMain2Main {
+    width: 68%;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.ShoppingCardviewproduct {
+    margin-bottom: 30px;
+    margin-left: 20px;
+    width: 90%;
+    border: 1px solid black;
+
+    /* height: 30%; */
+    /* background-color: rgb(162, 255, 0); */
+    justify-content: center;
+}
+
+.ShoppingCardviewproductone {
+    width: 100%;
+    color: black;
+    /* height: 30vh; */
+    background-color: white;
+}
+.ShoppingCardviewMain2 h1 {
+    padding-left: 20px;
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+}
+.ShoppingCardviewproductone {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 30px;
+    display: flex;
+    height: auto;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: blue; */
+}
+.ShoppingCardviewproductAll {
+    width: 70%;
+}
+.ShoppingCardviewordersummary {
+    width: 28%;
+
+    display: flex;
+    justify-content: center;
+    /* background-color: rgb(255, 255, 255); */
+}
+.ShoppingCardviewordersummaryinside {
+    height: 100vh;
+    position: sticky;
+    text-align: center;
+    bottom: 0vh;
+    top: 0;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 10px;
+    z-index: 5000;
+    color: black;
+    background-color: rgb(241, 241, 241);
+}
+.ShoppingCardviewordersummarybutton button {
+    width: 100%;
+    background-color: crimson;
+}
+.ShoppingCardviewordersummarybuttontwo {
+    background-color: blueviolet;
+}
+.carts_fiyat {
+    width: 10%;
+    height: auto;
+}
+.ShoppingCardviewproductoneimagedate {
+    width: 100%;
+}
+.ShoppingCardproductdetails {
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.box {
+    padding: 20px 10px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.CardviewproductdetailsMain {
+    width: 100%;
+    background-color: rgb(44, 44, 44);
+}
+
+@media only screen and (max-width: 767px) {
+    .ShoppingCardviewMain2Main{
+        padding-top: 50px;
+    }
+    .ShoppingCardviewMain{
+        display: block;
+    }
+    .ShoppingCardviewproductone{
+        display: block;
+    }
+    .ShoppingCardviewproductAll{
+        width: 100%;
+    }
+    .ShoppingCardviewordersummary{
+        width: 100%;
+    }
+    .CardviewproductdetailsMain{
+        display: none;
+    }
+    .ShoppingCardproductdetails{
+        display: none;
+    }
+    .ShoppingCardviewproduct{
+        display: flex;
+    }
+
+}
