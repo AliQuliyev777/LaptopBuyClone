@@ -106,18 +106,36 @@
     width: 100%;
     height: auto;
 }
+<<<<<<< Updated upstream
 
 .DesktopClickAbout {
     padding-top: 80px;
     background-image: url(https://ucarecdn.com/06d78298-1bd1-44d3-aa3f-9de07633a87e/LANCOOLBGTOP.png);
     background-color: #000;
     height: 800px;
+=======
+.DesktopClickAboutImageMaiin {
+    width: 100%;
+    height: 100vh;
+}
+.DesktopClickAboutImageMaiin img {
+    width: 100%;
+    height: auto;
+}
+.DesktopClickAbout {
+    padding-top: 80px;
+    display: flex;
+    background-color: #000;
+>>>>>>> Stashed changes
     padding-bottom: 101px;
     background-position: center center;
     padding-left: 0;
 }
 .DesktopClickAboutText {
+<<<<<<< Updated upstream
     width: 50%;
+=======
+>>>>>>> Stashed changes
     padding: 30px;
     /* height: 60vh; */
     /* background-color: aqua; */
@@ -860,6 +878,10 @@
     .DesktopClickAboutOverviewCoolingRevaReclamDiv {
         width: 100%;
     }
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 }
 
 /* Ekran boyutları 767 piksel ve altındaysa geçerli olacak stil kuralları */
@@ -870,6 +892,12 @@
         padding-bottom: 0;
         height: auto;
     }
+<<<<<<< Updated upstream
+=======
+    .DesktopClickAbout{
+        height: auto !important;
+    }
+>>>>>>> Stashed changes
 
     .DesktopClickAboutOvervievGallleryAllDiv {
         flex-direction: column;
@@ -942,6 +970,7 @@
         width: 90%;
         border-radius: 20px;
     }
+<<<<<<< Updated upstream
     .DesktopClickAboutOverviewSpecifationAllDiv{
         display: block;
     }
@@ -975,11 +1004,47 @@
         font-size: 20px;
     }
     .DesktopClickAboutOverviewSpecifationChasssispecifationMain{
+=======
+    .DesktopClickAboutOverviewSpecifationAllDiv {
+        display: block;
+    }
+    .DesktopClickAboutOverviewSpecifationDiv2 {
+        width: 100%;
+    }
+    .DesktopClickAboutOverviewSpecifationDiv2number {
+        padding: 10px !important;
+    }
+
+    .DesktopClickAboutOverviewSpecifationDiv2number {
+        background-color: #8201ff4d !important;
+        font-size: 15px;
+    }
+    .DesktopClickAboutOverviewSpecifationDiv2number p:first-child {
+        color: white;
+    }
+    .DesktopClickAboutOverviewSpecifationDiv2number p:last-child {
+        font-size: 20px;
+    }
+    .DesktopClickAboutOverviewSpecifationDiv {
+        width: 100%;
+    }
+    .DesktopClickAboutOverviewSpecifationDiv21 {
+        width: 100%;
+    }
+    .DesktopClickAboutOverviewSpecifationDiv2number1 {
+        padding: 10px 10px !important;
+    }
+    .DesktopClickAboutOverviewSpecifationDiv2number1 p:last-child {
+        font-size: 20px;
+    }
+    .DesktopClickAboutOverviewSpecifationChasssispecifationMain {
+>>>>>>> Stashed changes
         width: 100%;
     }
     .DesktopClickAboutOverviewSpecifationChasssispecifationContanierInside {
         padding: 0;
     }
+<<<<<<< Updated upstream
     .DesktopClickAboutOverviewSpecifationChasssisMain{
         text-align: center;
         display: block;
@@ -990,4 +1055,20 @@
     .DesktopClickAboutOverviewSpecifationChasssispecifationimg{
         width: 100%;
     }
+=======
+    .DesktopClickAboutOverviewSpecifationChasssisMain {
+        text-align: center;
+        display: block;
+    }
+    .DesktopClickAboutOverviewSpecifationChasssispecifationContanier {
+        padding: 0 !important;
+    }
+    .DesktopClickAboutOverviewSpecifationChasssispecifationimg {
+        width: 100%;
+    }
+    .DesktopClickAboutBuildPcDivButton a {
+        padding: 11px 2px;
+        font-size: 15px;
+    }
+>>>>>>> Stashed changes
 }

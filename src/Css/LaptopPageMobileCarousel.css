@@ -1,0 +1,42 @@
+@media only screen and (max-width: 767px) {
+    .thumb-wrapper {
+        display: flex;
+        flex-wrap: wrap; /* Yeni eklenen satır: Slaytların yan yana yerleştirilmesi için */
+        justify-content: center; /* Yeni eklenen satır: Slaytların ortalanması için */
+        margin-top: 30px;
+    }
+
+    .thumb-wrapper > div {
+        margin-top: 40%;
+
+        width: calc(60% / 3); /* Yeni eklenen satır: Slayt sayısına göre eşit genişlik */
+        max-height: 200px;
+        aspect-ratio: 1/1;
+        overflow: hidden;
+        transition: all 0.1s;
+    }
+
+    .thumb-wrapper > div img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .thumb-wrapper > div:hover,
+    .thumb-wrapper > div.active {
+        border: 3px solid rgba(216, 35, 35, 0.732);
+        max-height: calc(200px - 6px);
+    }
+
+    .LaptopPageMobile {
+        display: block !important; /* Yeni eklenen satır: Mobil cihazlarda blok olarak görüntüle */
+        max-width: 100%; /* Yeni eklenen satır: Mobil cihazlarda tam genişlik */
+    }
+    .LaptopPageMobileMainImage img {
+        width: 100%;
+    }
+}
+
+.LaptopPageMobile {
+    display: none;
+}

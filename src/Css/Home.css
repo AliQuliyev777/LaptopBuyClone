@@ -344,7 +344,11 @@
     top: 0;
     left: 0;
     backdrop-filter: brightness(100%) blur(3px);
+<<<<<<< Updated upstream
     background-color: #1c1c2097; /* Arka planı biraz koyulaştırır */
+=======
+    background-color: #00000097; /* Arka planı biraz koyulaştırır */
+>>>>>>> Stashed changes
 }
 .NewProductDivimg {
     padding-left: 40px;
@@ -944,6 +948,7 @@
         display: block;
     }
     .ImagetextDiv2 {
+<<<<<<< Updated upstream
         background-color: #0d0d0e;
         text-align: center;
         margin-top: 15px;
@@ -961,6 +966,12 @@
     .ImagetextDiv1 {
         bottom: -10%;
     }
+=======
+  display: none;
+    }
+    .ImagetextDiv1 {
+display: none;    }
+>>>>>>> Stashed changes
     .ViewsDesktopmodule2 {
         width: 100%;
     }

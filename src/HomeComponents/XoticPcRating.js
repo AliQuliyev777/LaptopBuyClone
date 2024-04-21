@@ -36,7 +36,11 @@ const XoticPcRating = () => {
             </div>
 
             <Swiper
+<<<<<<< Updated upstream
                      slidesPerView={slidesPerView}
+=======
+                slidesPerView={slidesPerView}
+>>>>>>> Stashed changes
 
                 centeredSlides={true}
                 spaceBetween={30}

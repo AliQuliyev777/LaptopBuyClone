@@ -68,6 +68,10 @@
 .PreBuiltPcFiltersMenuMain {
     width: 100%;
     padding-top: 50px;
+<<<<<<< Updated upstream
+=======
+    display: none ;
+>>>>>>> Stashed changes
     height: auto;
     background-color: rgb(22, 22, 22);
 }
@@ -80,7 +84,11 @@
     display: none;
 }
 .snize-filters-dropdown-content {
+<<<<<<< Updated upstream
     width: 10%;
+=======
+    width: 100%;
+>>>>>>> Stashed changes
     display: block;
     height: auto;
     /* background-color: blueviolet; */
@@ -189,6 +197,24 @@
     margin-left: 20px;
     /* background-color: blue; */
 }
+<<<<<<< Updated upstream
+=======
+@media only screen and (max-width: 767px) {
+
+    .PreBuiltPCDetailCard12{
+        width: 40% !important;
+    }
+    .PreBuiltPCDetailCard{
+        width: 40% !important;
+    }
+    .PreBuiltPCDetailCardimg{
+        padding-bottom: 50px;
+    }
+    .PreBuiltPCDesktopsTop2paneldropdown{
+        display: none  !important;
+    }
+}
+>>>>>>> Stashed changes
 
 @media only screen and (min-width: 1200px) {
     .PreBuiltPcFiltersMobileButtton {
@@ -265,3 +291,20 @@
         list-style: none;
     }
 }
+<<<<<<< Updated upstream
+=======
+/* Tüm kart resimlerinin genişliğini aynı yap */
+.card-img-top {
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* Resmin boyutunu koruyarak kesme yapar */
+}
+
+/* Kart boyutlarını belirle */
+.card {
+    height: 100%; /* Kartların yüksekliğini 100%'e ayarlar */
+}
+.AccosoriesMain{
+    overflow-y: hidden;
+}
+>>>>>>> Stashed changes

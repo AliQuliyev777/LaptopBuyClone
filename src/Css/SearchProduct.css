@@ -1,0 +1,151 @@
+
+@media only screen and (max-width: 767px) {
+  /* Your mobile-specific styles go here */
+
+  /* Example: Hide an element on mobile screens */
+  .input-group {
+    margin-top: 10%;
+  }
+}
+
+
+.SearchProductMain {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 21222121;
+    background-color: rgb(0, 0, 0);
+}
+.SearchProductMain.closed {
+  display: none;
+}
+
+.SearchProductMain input {
+    max-width: 74.2rem;
+    width: 1005;
+}
+.SearchProductMaincontaıner{
+  width: 100%;
+  height: auto;
+}
+.container {
+  display: flex;
+  align-items: center;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 10px ;
+  }
+  
+ .SearchProductMain form {
+    max-width: 80%;
+    margin: 0 auto;
+    position: relative;
+  }
+  
+ .SearchProductMain .input-group {
+    position: relative;
+  }
+  
+ .SearchProductMain label {
+    position: absolute;
+    right: 2%;
+    top: 50%;
+    transform: translatey(-50%);
+    color: rgba(0, 0, 0, 0.08);
+    transition: all 0.2s ease;
+  }
+  
+ .SearchProductMain input {
+    width: 100%;
+    padding: 8px 30px 8px 12px;
+    border: 2px solid rgba(0, 0, 0, 0.08);
+    outline: none;
+    font-size: 16px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.06);
+    color: #F27121;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-radius: 1px;
+    transition: all 0.2s ease;
+  }
+  
+ .SearchProductMain input:focus {
+    border-color: #F27121;
+  }
+  
+ .SearchProductMain input:focus + label {
+    transform: scale(1.05) translatey(-50%);
+    color: #F27121;
+  }
+  
+ .SearchProductMain #apps {
+    margin-top: 42px;
+  }
+  
+ .SearchProductMain .app {
+    display: inline-block;
+    width: 20%;
+    margin: 0 2.2% 24px;
+    padding: 12px 6px;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 3px;
+    transition: all 0.2s ease;
+  }
+  
+  .SearchProductMain .app:hover {
+    border-color: rgba(255, 255, 255, 0.5);
+  }
+  
+ .SearchProductMain .app i {
+    font-size: 2.4em;
+    color: #fff;
+  }
+  
+ .SearchProductMain .app p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    margin-top: 6px;
+    transition: 0.2s all ease;
+  }
+  
+  .SearchProductMain .app:hover p {
+    color: rgba(255, 255, 255, 0.8);
+  }
+  .SearchProductMain .suggestion-list {
+    display: grid; /* Grid olarak düzenle */
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Grid sütunları oluştur */
+    grid-gap: 20px; /* Sütunlar arası boşluk */
+    text-align: center; /* Öğeleri merkeze hizala */
+    background-color: #fff;
+    padding: 18px 24px 6px 12px;
+    border-radius: 0 0 6px 6px;
+    position: absolute;
+    overflow: auto;
+    width: 100%;
+    max-height: 70vh;
+    margin-top: 0px;
+    border: 2px solid #F27121;
+    border-top: none;
+}
+
+  
+ .SearchProductMain .suggestion-list.hidden {
+    display: none;
+    
+  }
+  
+ .SearchProductMain .suggestion-list p {
+    margin-bottom: 12px;
+  }
+  
+.SearchProductMain  .suggestion-list i {
+    margin-right: 12px;
+    color: #F27121;
+  }
+  .SearchProductMaincontaınerImage{
+    justify-content: center;
+    display: flex;
+    width: 100%;
+  }
+  

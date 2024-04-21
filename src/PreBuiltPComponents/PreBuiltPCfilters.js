@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 import React, { useState } from 'react';
 import '../Css/PreBuiltPC.css';
 import { Link } from 'react-router-dom';
@@ -41,6 +42,14 @@ const PreBuiltPCfilters = () => {
             setDropdownVisible(!isDropdownVisible);
         }
     };
+=======
+import React, {  } from 'react';
+import '../Css/PreBuiltPC.css';
+
+const PreBuiltPCfilters = () => {
+
+    
+>>>>>>> Stashed changes
     return (
         <>
 
@@ -57,6 +66,7 @@ const PreBuiltPCfilters = () => {
 
                     <div className="PreBuiltPCDesktopsTop2flex">
 
+<<<<<<< Updated upstream
                         <div
                             className="PreBuiltPCDesktopsTop2"
                             onMouseEnter={handleHover}
@@ -95,6 +105,8 @@ const PreBuiltPCfilters = () => {
                             )}
 
                         </div>
+=======
+>>>>>>> Stashed changes
 
                 
                     </div>

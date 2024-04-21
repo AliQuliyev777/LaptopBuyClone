@@ -10,6 +10,7 @@ const DesktopGamingsPC = () => {
                 <h1>ADVANCED SERIES GAMING DESKTOPS</h1>
                 <div className="DesktopsGamingPCsAll">
                     <DesktopGamingsPCCard />
+<<<<<<< Updated upstream
                     <DesktopGamingsPCCard />
                     <DesktopGamingsPCCard />
                     <DesktopGamingsPCCard />
@@ -18,6 +19,9 @@ const DesktopGamingsPC = () => {
                     <DesktopGamingsPCCard />
                     <DesktopGamingsPCCard />
                     <DesktopGamingsPCCard />
+=======
+           
+>>>>>>> Stashed changes
                     
                 </div>
             </div>

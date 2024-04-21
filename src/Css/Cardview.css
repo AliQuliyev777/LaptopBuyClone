@@ -1,9 +1,17 @@
 .ShoppingCardviewMain {
+<<<<<<< Updated upstream
+=======
+    
+>>>>>>> Stashed changes
     color: rgb(255, 255, 255);
     background-color: #ffffff;
     width: 100%;
     display: flex;
+<<<<<<< Updated upstream
     /* height: 100vh; */
+=======
+    justify-content: flex-end;    /* height: 100vh; */
+>>>>>>> Stashed changes
 }
 .ShoppingCardviewMain2 {
     /* background-color: rgb(234, 255, 0); */
@@ -13,10 +21,20 @@
 
     /* height: 100vh; */
 }
+<<<<<<< Updated upstream
 .ShoppingCardviewMain2Main {
     width: 68%;
     align-items: center;
     padding-top: 30px;
+=======
+.ShoppingCardviewproductoneimage{
+    width: 30%;
+}
+.ShoppingCardviewMain2Main {
+
+    background-color: white;
+    align-items: center;
+>>>>>>> Stashed changes
     padding-bottom: 20px;
     display: flex;
     justify-content: space-between;
@@ -130,5 +148,57 @@
     .ShoppingCardviewproduct{
         display: flex;
     }
+<<<<<<< Updated upstream
 
 }
+=======
+    .ShoppingCardviewproductoneimage{
+        width: 100% !important;
+    }
+
+}
+.sepetcolor{
+    color: black;
+}
+.empty-cart {
+    /* width: 50vw; */
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Maison Neue';
+    font-weight: 300;
+}
+
+#oval, #plus, #diamond, #bubble-rounded {
+    animation: plopp 4s ease-out infinite;
+}
+
+@keyframes plopp {
+    0% {
+        transform: translateY(0, 0);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(0, -10px);
+        opacity: 0;
+    }
+}
+
+/* Adjusting properties for specific elements */
+
+
+#bg-line {
+    &:nth-child(2) {
+        fill-opacity: 0.3;
+    }
+    &:nth-child(3) {
+        fill-opacity: 0.4;
+    }
+}
+
+.showFullSpecClick121212 span{
+    display: inline-flex;
+    background-color: red;
+padding: 20px 60px;
+border-radius: 40px;
+}
+>>>>>>> Stashed changes

@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import FullScreenImage from './FullScreenImage '; // FullScreenImage bileşenini içe aktar
+<<<<<<< Updated upstream
 
 const apiUrl = 'https://picsum.photos/v2/list?page=1&limit=5'; // API URL'sini güncelleyin
 
@@ -27,10 +28,36 @@ const DesktopClickAboutOverviewGallery = () => {
     setShowLargeImage(true); // Büyük resmi göster
     setClickedImage(src);
 
+=======
+import { useParams } from 'react-router-dom';
+
+const DesktopClickAboutOverviewGallery = ({ laptops }) => {
+  const [largeImageSrc, setLargeImageSrc] = useState('');
+  const [, setShowLargeImage] = useState(true);
+  const [clickedImage, setClickedImage] = useState(null);
+  const { laptopId } = useParams();
+  const laptop = laptops && laptops.find(laptop => laptop.laptopId === parseInt(laptopId));
+
+  useEffect(() => {
+    if (laptop) {
+      setLargeImageSrc(laptop.laptopImage1);
+    }
+  }, [laptop]);
+
+  if (!laptop) {
+    return <div>Laptop not found</div>;
+  }
+
+  const handleThumbnailClick = (src) => {
+    setLargeImageSrc(src);
+    setShowLargeImage(true);
+    setClickedImage(src);
+>>>>>>> Stashed changes
   };
 
   const closeLargeImage = () => {
     setClickedImage(null);
+<<<<<<< Updated upstream
 
     setShowLargeImage(true); // Büyük resmi kapat
   };
@@ -70,6 +97,25 @@ const DesktopClickAboutOverviewGallery = () => {
 
             </div>
           )}
+=======
+    setShowLargeImage(false);
+  };
+
+  return (
+    <>
+
+      <div className="DesktopClickAboutOvervievGallleryMain">
+        <div className="DesktopClickAboutOvervievGallleryAllDiv">
+
+          <div className="LargeImageOverlay" onClick={closeLargeImage}>
+            <FullScreenImage
+              imageUrl={largeImageSrc}
+              onClose={closeLargeImage}
+
+            />
+
+          </div>
+>>>>>>> Stashed changes
           <div className="DesktopClickAboutOvervievGalllerymainTextandimg">
             <div className="DesktopClickAboutOvervievGalllerymainText">
               <h1>LATEST GEN. GPU READY</h1>
@@ -78,6 +124,7 @@ const DesktopClickAboutOverviewGallery = () => {
               </p>
             </div>
             <div className="DesktopClickAboutOverviewGallerymainimg">
+<<<<<<< Updated upstream
               {images.map((image, index) => (
                 <img
                   key={index}
@@ -90,6 +137,13 @@ const DesktopClickAboutOverviewGallery = () => {
 
               ))}
 
+=======
+              <img src={laptop.laptopImage1} alt="" onClick={() => handleThumbnailClick(laptop.laptopImage1)} className={laptop.laptopImage1 === clickedImage ? 'clicked' : ''} />
+              <img src={laptop.laptopImage2} alt="" onClick={() => handleThumbnailClick(laptop.laptopImage2)} className={laptop.laptopImage2 === clickedImage ? 'clicked' : ''} />
+              <img src={laptop.laptopImage3} alt="" onClick={() => handleThumbnailClick(laptop.laptopImage3)} className={laptop.laptopImage3 === clickedImage ? 'clicked' : ''} />
+              <img src={laptop.laptopImage4} alt="" onClick={() => handleThumbnailClick(laptop.laptopImage4)} className={laptop.laptopImage4 === clickedImage ? 'clicked' : ''} />
+              <img src={laptop.laptopImage5} alt="" onClick={() => handleThumbnailClick(laptop.laptopImage5)} className={laptop.laptopImage5 === clickedImage ? 'clicked' : ''} />
+>>>>>>> Stashed changes
             </div>
           </div>
         </div>
@@ -102,12 +156,18 @@ const DesktopClickAboutOverviewGallery = () => {
           </div>
         </div>
       </div>
+<<<<<<< Updated upstream
 
 
 
+=======
+>>>>>>> Stashed changes
     </>
   );
 };
 
 export default DesktopClickAboutOverviewGallery;
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes

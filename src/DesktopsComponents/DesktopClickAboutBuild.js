@@ -1,8 +1,63 @@
+<<<<<<< Updated upstream
 import React from 'react';
 import '../Css/Desktops.css';
 import { Link } from 'react-router-dom';
 
 const DesktopClickAboutBuild = () => {
+=======
+import React  from 'react';
+import '../Css/Desktops.css';
+import { Link } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
+import axios from 'axios';
+
+const DesktopClickAboutBuild = ({ laptops }) => {
+    const { laptopId } = useParams(); 
+    const laptop = laptops.find(laptop => laptop.laptopId === parseInt(laptopId));
+
+    if (!laptop) {
+        return <div>Laptop not found</div>;
+    }
+    
+    const addbasket = async () => {
+        try {
+            const response = await axios.get('https://localhost:44379/api/home/ShoppingCard/' + laptopId);
+            console.log(response);
+            
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+    
+            const successMessageP = document.createElement('p');
+            successMessageP.textContent = 'Ürün başarıyla sepete eklendi!';
+            successMessageP.classList.add('success-message');
+    
+            const laptopPageDesktopsMain = document.querySelector('.LaptopPageDesktopsMain');
+            if (laptopPageDesktopsMain) {
+                laptopPageDesktopsMain.appendChild(successMessageP);
+    
+                setTimeout(() => {
+                    successMessageP.classList.add('fade-out');
+                    setTimeout(() => {
+                        successMessageP.remove();
+                    }, 1000);
+                }, 2000);
+    
+                // Başarılı olduğunda sayfa yenilensin
+                setTimeout(() => {
+                    window.location.reload();
+                }, 0);
+            } else {
+                console.error('LaptopPageDesktopsMain bulunamadı.');
+            }
+        } catch (error) {
+            console.error('Hata oluştu:', error);
+        }
+    };
+    
+
+>>>>>>> Stashed changes
 
     return (
         <>
@@ -14,7 +69,11 @@ const DesktopClickAboutBuild = () => {
             
                 <div className="DesktopClickAboutBuildPcDiv">
                     <div className="DesktopClickAboutBuildPcDivImg">
+<<<<<<< Updated upstream
                         <img src="https://ucarecdn.com/8428a890-6f30-42e2-9b69-21588c4ba86a/LANCOOLCONFIG.png" alt="" />
+=======
+                    <img src={laptop.laptopImage2} alt="" />
+>>>>>>> Stashed changes
                     </div>
                     <div className="DesktopClickAboutBuildPcDivparagraf">
                         <p><span>READYTO</span><span>SHIP</span></p>
@@ -43,7 +102,11 @@ const DesktopClickAboutBuild = () => {
                         </div>
                         <div className="DesktopClickAboutBuildPcDivSpecificationparagraf">
                             <p>Processor</p>
+<<<<<<< Updated upstream
                             <p>AMD Ryzen™ 5 5600G 6-Cores</p>
+=======
+                            <p>{laptop.laptopProcessor}</p>
+>>>>>>> Stashed changes
                         </div>
                     </div>
                     <div className="DesktopClickAboutBuildPcDivSpecificationnAll ">
@@ -95,8 +158,14 @@ const DesktopClickAboutBuild = () => {
                         <Link to="/" >
                             <span>Learn More</span>
                         </Link>
+<<<<<<< Updated upstream
                         <Link to="/" >
                             <span>Add To Cart</span>
+=======
+                        <Link >
+                        <span onClick={addbasket} >Add to asCard</span>
+
+>>>>>>> Stashed changes
                         </Link>
                     </div>
                     <div className="DesktopClickAboutBuildPcDivStars">

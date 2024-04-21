@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 import React from 'react';
 import '../Css/PreBuiltPC.css';
 import '../Css/LaptopView.css';
@@ -6,6 +7,23 @@ import '../Css/LaptopView.css';
 
 const LaptopPageInfoTable = () => {
 
+=======
+import React, { } from 'react';
+import '../Css/PreBuiltPC.css';
+import '../Css/LaptopView.css';
+import { useParams } from 'react-router-dom';
+
+
+
+const LaptopPageInfoTable = ({ laptops }) => {
+    const { laptopId } = useParams();
+    const laptop = laptops && laptops.find(laptop => laptop.laptopId === parseInt(laptopId));
+
+
+    if (!laptop) {
+        return <div>Laptop not found</div>;
+    }
+>>>>>>> Stashed changes
     return (
         <>
             <table className="LaptopPageInfoTableMain">
@@ -21,6 +39,7 @@ const LaptopPageInfoTable = () => {
                         </td>
                         <td>
                             <ul>
+<<<<<<< Updated upstream
                                 <li>
                                     <span>ROG Nebula HDR Display</span>
                                 </li>
@@ -57,6 +76,35 @@ const LaptopPageInfoTable = () => {
                                 </li>
                                 <li>
                                     <span>Support Dolby Vision HDR :Yes</span>
+=======
+
+                                <li>
+                                    <span>{laptop.laptopDisplay}</span>
+                                </li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span>Resolution	</span>
+                        </td>
+                        <td>
+                            <ul>
+                                <li>
+                                    <span>{laptop.laptopResolution}</span>
+                                </li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span>AdditionalDisplay	</span>
+                        </td>
+                        <td>
+                            <ul>
+                                <li>
+                                    <span>{laptop.laptopAdditionalDisplay}</span>
+>>>>>>> Stashed changes
                                 </li>
                             </ul>
                         </td>
@@ -68,30 +116,48 @@ const LaptopPageInfoTable = () => {
                         <td>
                             <ul>
                                 <li>
+<<<<<<< Updated upstream
                                     <span>13th Gen Intel® Core™ i9-13980HX Processor 2.2 GHz (36M Cache, up to 5.6 GHz, 24 cores: 8 P-cores and 16 E-cores)</span>
+=======
+                                    <span>{laptop.laptopProcessor}</span>
+
+>>>>>>> Stashed changes
                                 </li>
                             </ul>
                         </td>
                     </tr>
                     <tr>
                         <td>
+<<<<<<< Updated upstream
                             <span>Memory Slot	</span>
+=======
+                            <span>Graphics	</span>
+>>>>>>> Stashed changes
                         </td>
                         <td>
                             <ul>
                                 <li>
+<<<<<<< Updated upstream
                                     <span>2x SO-DIMM slots</span>
+=======
+                                    <span>{laptop.laptopGraphics}</span>
+>>>>>>> Stashed changes
                                 </li>
                             </ul>
                         </td>
                     </tr>
                     <tr>
                         <td>
+<<<<<<< Updated upstream
                             <span>Video Graphics	</span>
+=======
+                            <span>Memory</span>
+>>>>>>> Stashed changes
                         </td>
                         <td>
                             <ul>
                                 <li>
+<<<<<<< Updated upstream
                                     <span>NVIDIA® GeForce RTX™ 4060 Laptop GPU
                                         ROG Boost: 2420MHz* at 140W (2370MHz Boost Clock+50MHz OC, 115W+25W Dynamic Boost)
                                         8GB GDDR6</span>
@@ -135,12 +201,32 @@ const LaptopPageInfoTable = () => {
                                 </li>
                                 <li>
                                     <span>1x Thunderbolt™ 4 support DisplayPort™ / G-SYNC</span>
+=======
+                                    <span>{laptop.laptopMemory}</span>
+
+                                </li>
+
+
+
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span>Storage	</span>
+                        </td>
+                        <td>
+                            <ul>
+                                <li>
+                                    <span>{laptop.laptopStorage}</span>
+>>>>>>> Stashed changes
                                 </li>
                             </ul>
                         </td>
                     </tr>
                     <tr>
                         <td>
+<<<<<<< Updated upstream
                             <span>Internet	</span>
                         </td>
                         <td>
@@ -148,6 +234,45 @@ const LaptopPageInfoTable = () => {
                                 <li>
                                     <span>Wi-Fi 6E(802.11ax) (Triple band) 2*2 + Bluetooth® 5.3 Wireless Card (*Bluetooth® version may change with OS version different.)</span>
                                 </li>
+=======
+                            <span>OperatingSystem	</span>
+                        </td>
+                        <td>
+                            <ul>
+
+                                <li>
+                                    <span>{laptop.laptopOperatingSystem}</span>
+                                </li>
+
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span>Ioports	</span>
+                        </td>
+                        <td>
+                            <ul>
+
+                                <li>
+                                    <span>{laptop.laptopIoports}</span>
+                                </li>
+
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span>Camera	</span>
+                        </td>
+                        <td>
+                            <ul>
+
+                                <li>
+                                    <span>{laptop.laptopCamera}</span>
+                                </li>
+
+>>>>>>> Stashed changes
                             </ul>
                         </td>
                     </tr>
@@ -157,6 +282,7 @@ const LaptopPageInfoTable = () => {
                         </td>
                         <td>
                             <ul>
+<<<<<<< Updated upstream
                                 <li>
                                     <span>Smart Amp Technology</span>
                                 </li>
@@ -178,6 +304,111 @@ const LaptopPageInfoTable = () => {
                                 <li>
                                     <span>2-speaker system with Smart Amplifier Technology</span>
                                 </li>
+=======
+
+                                <li>
+                                    <span>{laptop.laptopAudio}</span>
+                                </li>
+
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span>Ioports	</span>
+                        </td>
+                        <td>
+                            <ul>
+
+                                <li>
+                                    <span>{laptop.laptopIoports}</span>
+                                </li>
+
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span>NetworkCommunication	</span>
+                        </td>
+                        <td>
+                            <ul>
+
+                                <li>
+                                    <span>{laptop.laptopNetworkCommunication}</span>
+                                </li>
+
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span>Ioports	</span>
+                        </td>
+                        <td>
+                            <ul>
+
+                                <li>
+                                    <span>{laptop.laptopIoports}</span>
+                                </li>
+
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span>Battery	</span>
+                        </td>
+                        <td>
+                            <ul>
+
+                                <li>
+                                    <span>{laptop.laptopBattery}</span>
+                                </li>
+
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span>PowerSupply	</span>
+                        </td>
+                        <td>
+                            <ul>
+
+                                <li>
+                                    <span>{laptop.laptopPowerSupply}</span>
+                                </li>
+
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span>Color	</span>
+                        </td>
+                        <td>
+                            <ul>
+
+                                <li>
+                                    <span>{laptop.laptopColor}</span>
+                                </li>
+
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span>Dimensions	</span>
+                        </td>
+                        <td>
+                            <ul>
+
+                                <li>
+                                    <span>{laptop.laptopDimensions}</span>
+                                </li>
+
+>>>>>>> Stashed changes
                             </ul>
                         </td>
                     </tr>
