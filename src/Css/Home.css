@@ -344,7 +344,15 @@
     top: 0;
     left: 0;
     backdrop-filter: brightness(100%) blur(3px);
+<<<<<<< HEAD
     background-color: #00000097; /* Arka planı biraz koyulaştırır */
+=======
+<<<<<<< Updated upstream
+    background-color: #1c1c2097; /* Arka planı biraz koyulaştırır */
+=======
+    background-color: #00000097; /* Arka planı biraz koyulaştırır */
+>>>>>>> Stashed changes
+>>>>>>> 405ef563bbaab54065b22971f3144edb1d6e0898
 }
 .NewProductDivimg {
     padding-left: 40px;
@@ -944,10 +952,36 @@
         display: block;
     }
     .ImagetextDiv2 {
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+        background-color: #0d0d0e;
+        text-align: center;
+        margin-top: 15px;
+        margin-right: 0;
+        margin-bottom: 15px;
+        position: absolute;
+        bottom: 8%;
+        left: 20%;
+        border-radius: 15%;
+        z-index: 10;
+        opacity: 0.7;
+        height: 20vh;
+        font-size: 8px;
+    }
+    .ImagetextDiv1 {
+        bottom: -10%;
+    }
+=======
+>>>>>>> 405ef563bbaab54065b22971f3144edb1d6e0898
   display: none;
     }
     .ImagetextDiv1 {
 display: none;    }
+<<<<<<< HEAD
+=======
+>>>>>>> Stashed changes
+>>>>>>> 405ef563bbaab54065b22971f3144edb1d6e0898
     .ViewsDesktopmodule2 {
         width: 100%;
     }

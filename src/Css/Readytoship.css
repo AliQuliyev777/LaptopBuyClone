@@ -327,9 +327,19 @@
 }
 @media only screen and (max-width: 767px) {
   /* Your mobile-specific styles go here */
+<<<<<<< HEAD
   .ReadytoShipGUARANTEEitext{
     display: none;
   }
+=======
+<<<<<<< Updated upstream
+
+=======
+  .ReadytoShipGUARANTEEitext{
+    display: none;
+  }
+>>>>>>> Stashed changes
+>>>>>>> 405ef563bbaab54065b22971f3144edb1d6e0898
   /* Example: Hide an element on mobile screens */
   .Readytoshipmain {
     padding-top: 20%;

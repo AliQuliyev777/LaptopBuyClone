@@ -1,3 +1,11 @@
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+
+
+=======
+>>>>>>> Stashed changes
+>>>>>>> 405ef563bbaab54065b22971f3144edb1d6e0898
 .text {
     position: absolute;
     text-align: center;
@@ -9,14 +17,35 @@
   ----------------------*/
 
 .hamburger-menu {
+<<<<<<< HEAD
     color: red;
 
     left: 0;
+=======
+<<<<<<< Updated upstream
+    position: fixed;
+    top: 0;
+    left: 0;
+
+=======
+    color: red;
+
+    left: 0;
+>>>>>>> Stashed changes
+>>>>>>> 405ef563bbaab54065b22971f3144edb1d6e0898
     width: 100%;
     height: 60px;
     cursor: pointer;
     z-index: 50000000000 !important;
+<<<<<<< HEAD
     background: #000000;
+=======
+<<<<<<< Updated upstream
+    background: #090909;
+=======
+    background: #000000;
+>>>>>>> Stashed changes
+>>>>>>> 405ef563bbaab54065b22971f3144edb1d6e0898
     -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
 }
 
@@ -29,14 +58,29 @@
 
 .hamburger-menu .bar {
     position: relative;
+<<<<<<< HEAD
 
+=======
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
+>>>>>>> 405ef563bbaab54065b22971f3144edb1d6e0898
     transform: translateY(10px);
     background: rgb(255, 255, 255);
     transition: all 0ms 300ms;
 }
 
 .hamburger-menu .bar.animate {
+<<<<<<< HEAD
     background: rgb(255, 255, 255);
+=======
+<<<<<<< Updated upstream
+    background: rgb(255, 255, 255);;
+=======
+    background: rgb(255, 255, 255);
+>>>>>>> Stashed changes
+>>>>>>> 405ef563bbaab54065b22971f3144edb1d6e0898
 }
 
 .hamburger-menu .bar:before {
@@ -44,7 +88,15 @@
     position: absolute;
     left: 0;
     bottom: 10px;
+<<<<<<< HEAD
     background: rgb(255, 255, 255);
+=======
+<<<<<<< Updated upstream
+    background: rgb(255, 255, 255);;
+=======
+    background: rgb(255, 255, 255);
+>>>>>>> Stashed changes
+>>>>>>> 405ef563bbaab54065b22971f3144edb1d6e0898
     transition:
         bottom 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1),
         transform 300ms cubic-bezier(0.23, 1, 0.32, 1);
@@ -55,7 +107,15 @@
     position: absolute;
     left: 0;
     top: 10px;
+<<<<<<< HEAD
     background: rgb(255, 255, 255);
+=======
+<<<<<<< Updated upstream
+    background: rgb(255, 255, 255);;
+=======
+    background: rgb(255, 255, 255);
+>>>>>>> Stashed changes
+>>>>>>> 405ef563bbaab54065b22971f3144edb1d6e0898
     transition:
         top 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1),
         transform 300ms cubic-bezier(0.23, 1, 0.32, 1);
@@ -91,9 +151,19 @@
 
 .mobile-menu li {
     font-size: 20px;
+<<<<<<< HEAD
 
     line-height: 30px;
     color: red;
+=======
+<<<<<<< Updated upstream
+    line-height: 30px;
+=======
+
+    line-height: 30px;
+    color: red;
+>>>>>>> Stashed changes
+>>>>>>> 405ef563bbaab54065b22971f3144edb1d6e0898
     margin: 0;
     overflow: hidden;
     padding: 5px;
@@ -107,14 +177,33 @@
     margin-top: 70px;
 }
 
+<<<<<<< HEAD
 .mobile-menu .has-children li :hover {
     background: #494949;
+=======
+<<<<<<< Updated upstream
+.mobile-menu li:hover {
+    background: #cccccc;
+=======
+.mobile-menu .has-children li :hover {
+    background: #494949;
+>>>>>>> Stashed changes
+>>>>>>> 405ef563bbaab54065b22971f3144edb1d6e0898
 }
 
 .mobile-menu li a {
     text-decoration: none;
+<<<<<<< HEAD
 
     color: rgb(255, 0, 0);
+=======
+<<<<<<< Updated upstream
+    color: black;
+=======
+
+    color: rgb(255, 0, 0);
+>>>>>>> Stashed changes
+>>>>>>> 405ef563bbaab54065b22971f3144edb1d6e0898
 }
 
 /*---------------------
@@ -123,6 +212,19 @@
 
 .mobile-menu {
     top: 0;
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+    max-width: 250px;
+    left: -100%;
+    width: 100%;
+    background: #ebebeb;
+    color: black;
+    height: 100%;
+    position: fixed;
+    z-index: 9997;
+=======
+>>>>>>> 405ef563bbaab54065b22971f3144edb1d6e0898
     z-index: 1000000000000000;
     max-width: 340px;
     left: -100%;
@@ -131,6 +233,10 @@
     color: black;
     height: 100%;
     position: fixed;
+<<<<<<< HEAD
+=======
+>>>>>>> Stashed changes
+>>>>>>> 405ef563bbaab54065b22971f3144edb1d6e0898
     overflow-y: auto;
     -webkit-transform: translate3d(0, 0, 205px);
     -moz-transform: translate3d(0, 0, 205px);
@@ -142,8 +248,16 @@
 
 .mobile-menu.activemenumobile {
     left: 0;
+<<<<<<< HEAD
     z-index: 1000000000;
 
+=======
+<<<<<<< Updated upstream
+=======
+    z-index: 1000000000;
+
+>>>>>>> Stashed changes
+>>>>>>> 405ef563bbaab54065b22971f3144edb1d6e0898
     -webkit-transform: translate3d(0, 0, 0);
     -moz-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
@@ -172,7 +286,15 @@
     position: absolute;
     display: block;
     font-size: 0.7em;
+<<<<<<< HEAD
     color: red;
+=======
+<<<<<<< Updated upstream
+    color: black;
+=======
+    color: red;
+>>>>>>> Stashed changes
+>>>>>>> 405ef563bbaab54065b22971f3144edb1d6e0898
     top: 5px;
     right: 10px;
     transform: rotate(0deg);
@@ -202,6 +324,13 @@
     .hamburger-menu {
         display: none !important;
     }
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+
+=======
+>>>>>>> Stashed changes
+>>>>>>> 405ef563bbaab54065b22971f3144edb1d6e0898
 }
 
 .hamburger-menu-image {
@@ -212,8 +341,16 @@
     width: 100%;
 }
 .hamburger-menumain {
+<<<<<<< HEAD
     position: absolute;
     z-index: 100000000000000000000000000000000000;
+=======
+<<<<<<< Updated upstream
+=======
+    position: absolute;
+    z-index: 100000000000000000000000000000000000;
+>>>>>>> Stashed changes
+>>>>>>> 405ef563bbaab54065b22971f3144edb1d6e0898
     width: 100%;
     height: auto;
     display: flex;
@@ -229,6 +366,11 @@
     display: flex;
     align-items: center;
 }
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+=======
+>>>>>>> 405ef563bbaab54065b22971f3144edb1d6e0898
 .hamburger-menu-logo {
     background-color: unset;
     color: white;
@@ -288,3 +430,7 @@
     font-size: 20px;
     cursor: pointer;
 }
+<<<<<<< HEAD
+=======
+>>>>>>> Stashed changes
+>>>>>>> 405ef563bbaab54065b22971f3144edb1d6e0898

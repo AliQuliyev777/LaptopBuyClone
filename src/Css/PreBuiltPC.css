@@ -68,7 +68,14 @@
 .PreBuiltPcFiltersMenuMain {
     width: 100%;
     padding-top: 50px;
+<<<<<<< HEAD
     display: none ;
+=======
+<<<<<<< Updated upstream
+=======
+    display: none ;
+>>>>>>> Stashed changes
+>>>>>>> 405ef563bbaab54065b22971f3144edb1d6e0898
     height: auto;
     background-color: rgb(22, 22, 22);
 }
@@ -81,7 +88,15 @@
     display: none;
 }
 .snize-filters-dropdown-content {
+<<<<<<< HEAD
     width: 100%;
+=======
+<<<<<<< Updated upstream
+    width: 10%;
+=======
+    width: 100%;
+>>>>>>> Stashed changes
+>>>>>>> 405ef563bbaab54065b22971f3144edb1d6e0898
     display: block;
     height: auto;
     /* background-color: blueviolet; */
@@ -190,6 +205,11 @@
     margin-left: 20px;
     /* background-color: blue; */
 }
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+=======
+>>>>>>> 405ef563bbaab54065b22971f3144edb1d6e0898
 @media only screen and (max-width: 767px) {
 
     .PreBuiltPCDetailCard12{
@@ -205,6 +225,10 @@
         display: none  !important;
     }
 }
+<<<<<<< HEAD
+=======
+>>>>>>> Stashed changes
+>>>>>>> 405ef563bbaab54065b22971f3144edb1d6e0898
 
 @media only screen and (min-width: 1200px) {
     .PreBuiltPcFiltersMobileButtton {
@@ -281,6 +305,11 @@
         list-style: none;
     }
 }
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+=======
+>>>>>>> 405ef563bbaab54065b22971f3144edb1d6e0898
 /* Tüm kart resimlerinin genişliğini aynı yap */
 .card-img-top {
     width: 100%;
@@ -294,4 +323,9 @@
 }
 .AccosoriesMain{
     overflow-y: hidden;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> Stashed changes
+>>>>>>> 405ef563bbaab54065b22971f3144edb1d6e0898

@@ -1,3 +1,15 @@
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+import React, { useState } from 'react';
+import { Link, NavLink } from 'react-router-dom';
+import '../Css/Nav.css';
+import NavMobile from './NavMobile';
+
+const Nav = () => {
+    const [menuStates, setMenuStates] = useState({
+=======
+>>>>>>> 405ef563bbaab54065b22971f3144edb1d6e0898
 import React, { useState, useEffect } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import '../Css/Nav.css';
@@ -10,12 +22,23 @@ const Nav = () => {
 
     const [menuStates, setMenuStates] = useState({
 
+<<<<<<< HEAD
+=======
+>>>>>>> Stashed changes
+>>>>>>> 405ef563bbaab54065b22971f3144edb1d6e0898
         logoMenuVisible: false,
         logoMenuVisible2: false,
         logoMenuVisible3: false,
         logoMenuVisible7: false,
         logoMenuVisible31: false,
     });
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+
+    const toggleMenu = (menuName) => {
+=======
+>>>>>>> 405ef563bbaab54065b22971f3144edb1d6e0898
     useEffect(() => {
         const fetchData = async () => {
             try {
@@ -38,6 +61,10 @@ const Nav = () => {
 
     const toggleMenu = (menuName) => {
 
+<<<<<<< HEAD
+=======
+>>>>>>> Stashed changes
+>>>>>>> 405ef563bbaab54065b22971f3144edb1d6e0898
         let currentMenu = document.querySelector(`.${menuName}`);
         let icon = null;
 
@@ -67,6 +94,30 @@ const Nav = () => {
     const toggleLogoMenu3 = () => toggleMenu('logoMenu3');
     const toggleLogoMenu7 = () => toggleMenu('logoMenu7');
 
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+    const closeOtherMenus = (currentMenuName, currentMenuStates, setMenuStates) => {
+        const menuStateKeys = Object.keys(currentMenuStates);
+        menuStateKeys
+            .filter((menuName) => menuName !== currentMenuName)
+            .forEach((menuName) => {
+                const otherMenu = document.querySelector(`.${menuName}`);
+                if (otherMenu) {
+                    otherMenu.style.display = 'none';
+                }
+            });
+
+        // Close the current menu if it's open
+        if (currentMenuStates[currentMenuName]) {
+            setMenuStates((prevState) => ({
+                ...prevState,
+                [currentMenuName]: false,
+            }));
+        }
+        
+=======
+>>>>>>> 405ef563bbaab54065b22971f3144edb1d6e0898
 const closeOtherMenus = (currentMenuName, menuStates, setMenuStates) => {
     for (const menuName in menuStates) {
         if (menuName !== currentMenuName && menuStates[menuName] === true) {
@@ -92,6 +143,10 @@ const closeOtherMenus = (currentMenuName, menuStates, setMenuStates) => {
         event.preventDefault();
         console.log('Event:', event);
         setIsSearchOpen2((prevIsSearchOpen2) => !prevIsSearchOpen2);
+<<<<<<< HEAD
+=======
+>>>>>>> Stashed changes
+>>>>>>> 405ef563bbaab54065b22971f3144edb1d6e0898
     };
 
     return (
@@ -109,7 +164,14 @@ const closeOtherMenus = (currentMenuName, menuStates, setMenuStates) => {
                                 <span> Ready To Ship</span>
                             </Link>
                         </li>
+<<<<<<< HEAD
                       
+=======
+<<<<<<< Updated upstream
+=======
+                      
+>>>>>>> Stashed changes
+>>>>>>> 405ef563bbaab54065b22971f3144edb1d6e0898
                         <li>
                             <Link className="menu-link-2" onClick={toggleLogoMenu2}>
                                 <span>DESKTOPS </span>
@@ -139,14 +201,30 @@ const closeOtherMenus = (currentMenuName, menuStates, setMenuStates) => {
                 <div className="righttextMenu d-flex">
                     <ul>
                         <li>
+<<<<<<< HEAD
                             <Link onClick={handleSearchClick} to="/" >
                                 <i className="fa-solid fa-magnifying-glass openSearch"></i>
                             </Link>
+=======
+<<<<<<< Updated upstream
+                            <Link to="/"><i className="fa-solid fa-magnifying-glass"></i> </Link>
+=======
+                            <Link onClick={handleSearchClick} to="/" >
+                                <i className="fa-solid fa-magnifying-glass openSearch"></i>
+                            </Link>
+>>>>>>> Stashed changes
+>>>>>>> 405ef563bbaab54065b22971f3144edb1d6e0898
                         </li>
                         <li>
                             <Link to="/account"><i className="fa-solid fa-user"></i> </Link>
                         </li>
                         <li>
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+                            <Link to="/cardview"><i className="fa-solid fa-bag-shopping"></i> </Link>
+=======
+>>>>>>> 405ef563bbaab54065b22971f3144edb1d6e0898
                             <Link to="/addproduct" >
                             <i class="fa-solid fa-plus"></i>
                             </Link>
@@ -157,6 +235,10 @@ const closeOtherMenus = (currentMenuName, menuStates, setMenuStates) => {
                                 
                             </i> </Link>
 
+<<<<<<< HEAD
+=======
+>>>>>>> Stashed changes
+>>>>>>> 405ef563bbaab54065b22971f3144edb1d6e0898
                         </li>
                     </ul>
                 </div>
@@ -274,7 +356,14 @@ const closeOtherMenus = (currentMenuName, menuStates, setMenuStates) => {
                     </ul>
                 </div>
             </nav>
+<<<<<<< HEAD
             {isSearchOpen2 && <SearchProduct />}
+=======
+<<<<<<< Updated upstream
+=======
+            {isSearchOpen2 && <SearchProduct />}
+>>>>>>> Stashed changes
+>>>>>>> 405ef563bbaab54065b22971f3144edb1d6e0898
         </>
     );
 };

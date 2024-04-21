@@ -1,3 +1,13 @@
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+import React from 'react';
+import '../Css/Desktops.css';
+import { Link } from 'react-router-dom';
+
+const DesktopClickAboutBuild = () => {
+=======
+>>>>>>> 405ef563bbaab54065b22971f3144edb1d6e0898
 import React  from 'react';
 import '../Css/Desktops.css';
 import { Link } from 'react-router-dom';
@@ -50,6 +60,10 @@ const DesktopClickAboutBuild = ({ laptops }) => {
     };
     
 
+<<<<<<< HEAD
+=======
+>>>>>>> Stashed changes
+>>>>>>> 405ef563bbaab54065b22971f3144edb1d6e0898
 
     return (
         <>
@@ -61,7 +75,15 @@ const DesktopClickAboutBuild = ({ laptops }) => {
             
                 <div className="DesktopClickAboutBuildPcDiv">
                     <div className="DesktopClickAboutBuildPcDivImg">
+<<<<<<< HEAD
                     <img src={laptop.laptopImage2} alt="" />
+=======
+<<<<<<< Updated upstream
+                        <img src="https://ucarecdn.com/8428a890-6f30-42e2-9b69-21588c4ba86a/LANCOOLCONFIG.png" alt="" />
+=======
+                    <img src={laptop.laptopImage2} alt="" />
+>>>>>>> Stashed changes
+>>>>>>> 405ef563bbaab54065b22971f3144edb1d6e0898
                     </div>
                     <div className="DesktopClickAboutBuildPcDivparagraf">
                         <p><span>READYTO</span><span>SHIP</span></p>
@@ -90,7 +112,15 @@ const DesktopClickAboutBuild = ({ laptops }) => {
                         </div>
                         <div className="DesktopClickAboutBuildPcDivSpecificationparagraf">
                             <p>Processor</p>
+<<<<<<< HEAD
                             <p>{laptop.laptopProcessor}</p>
+=======
+<<<<<<< Updated upstream
+                            <p>AMD Ryzen™ 5 5600G 6-Cores</p>
+=======
+                            <p>{laptop.laptopProcessor}</p>
+>>>>>>> Stashed changes
+>>>>>>> 405ef563bbaab54065b22971f3144edb1d6e0898
                         </div>
                     </div>
                     <div className="DesktopClickAboutBuildPcDivSpecificationnAll ">
@@ -142,9 +172,20 @@ const DesktopClickAboutBuild = ({ laptops }) => {
                         <Link to="/" >
                             <span>Learn More</span>
                         </Link>
+<<<<<<< HEAD
                         <Link >
                         <span onClick={addbasket} >Add to asCard</span>
 
+=======
+<<<<<<< Updated upstream
+                        <Link to="/" >
+                            <span>Add To Cart</span>
+=======
+                        <Link >
+                        <span onClick={addbasket} >Add to asCard</span>
+
+>>>>>>> Stashed changes
+>>>>>>> 405ef563bbaab54065b22971f3144edb1d6e0898
                         </Link>
                     </div>
                     <div className="DesktopClickAboutBuildPcDivStars">

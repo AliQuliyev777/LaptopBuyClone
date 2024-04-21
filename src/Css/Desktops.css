@@ -106,6 +106,17 @@
     width: 100%;
     height: auto;
 }
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+
+.DesktopClickAbout {
+    padding-top: 80px;
+    background-image: url(https://ucarecdn.com/06d78298-1bd1-44d3-aa3f-9de07633a87e/LANCOOLBGTOP.png);
+    background-color: #000;
+    height: 800px;
+=======
+>>>>>>> 405ef563bbaab54065b22971f3144edb1d6e0898
 .DesktopClickAboutImageMaiin {
     width: 100%;
     height: 100vh;
@@ -118,11 +129,22 @@
     padding-top: 80px;
     display: flex;
     background-color: #000;
+<<<<<<< HEAD
+=======
+>>>>>>> Stashed changes
+>>>>>>> 405ef563bbaab54065b22971f3144edb1d6e0898
     padding-bottom: 101px;
     background-position: center center;
     padding-left: 0;
 }
 .DesktopClickAboutText {
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+    width: 50%;
+=======
+>>>>>>> Stashed changes
+>>>>>>> 405ef563bbaab54065b22971f3144edb1d6e0898
     padding: 30px;
     /* height: 60vh; */
     /* background-color: aqua; */
@@ -865,7 +887,14 @@
     .DesktopClickAboutOverviewCoolingRevaReclamDiv {
         width: 100%;
     }
+<<<<<<< HEAD
 
+=======
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
+>>>>>>> 405ef563bbaab54065b22971f3144edb1d6e0898
 }
 
 /* Ekran boyutları 767 piksel ve altındaysa geçerli olacak stil kuralları */
@@ -876,9 +905,18 @@
         padding-bottom: 0;
         height: auto;
     }
+<<<<<<< HEAD
     .DesktopClickAbout{
         height: auto !important;
     }
+=======
+<<<<<<< Updated upstream
+=======
+    .DesktopClickAbout{
+        height: auto !important;
+    }
+>>>>>>> Stashed changes
+>>>>>>> 405ef563bbaab54065b22971f3144edb1d6e0898
 
     .DesktopClickAboutOvervievGallleryAllDiv {
         flex-direction: column;
@@ -951,6 +989,44 @@
         width: 90%;
         border-radius: 20px;
     }
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+    .DesktopClickAboutOverviewSpecifationAllDiv{
+        display: block;
+    }
+    .DesktopClickAboutOverviewSpecifationDiv2{
+        width: 100%;
+    }
+    .DesktopClickAboutOverviewSpecifationDiv2number{
+        padding: 10px !important;
+    }
+
+    .DesktopClickAboutOverviewSpecifationDiv2number{
+        background-color: #8201ff4d !important;
+        font-size: 15px;
+    }
+    .DesktopClickAboutOverviewSpecifationDiv2number p:first-child{
+        color: white;
+    }
+    .DesktopClickAboutOverviewSpecifationDiv2number p:last-child{
+        font-size: 20px;
+    }
+    .DesktopClickAboutOverviewSpecifationDiv{
+        width: 100%;
+    }
+    .DesktopClickAboutOverviewSpecifationDiv21{
+        width: 100%;
+    }
+    .DesktopClickAboutOverviewSpecifationDiv2number1{
+        padding: 10px 10px !important;
+    }
+    .DesktopClickAboutOverviewSpecifationDiv2number1 p:last-child{
+        font-size: 20px;
+    }
+    .DesktopClickAboutOverviewSpecifationChasssispecifationMain{
+=======
+>>>>>>> 405ef563bbaab54065b22971f3144edb1d6e0898
     .DesktopClickAboutOverviewSpecifationAllDiv {
         display: block;
     }
@@ -984,11 +1060,30 @@
         font-size: 20px;
     }
     .DesktopClickAboutOverviewSpecifationChasssispecifationMain {
+<<<<<<< HEAD
+=======
+>>>>>>> Stashed changes
+>>>>>>> 405ef563bbaab54065b22971f3144edb1d6e0898
         width: 100%;
     }
     .DesktopClickAboutOverviewSpecifationChasssispecifationContanierInside {
         padding: 0;
     }
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+    .DesktopClickAboutOverviewSpecifationChasssisMain{
+        text-align: center;
+        display: block;
+    }
+    .DesktopClickAboutOverviewSpecifationChasssispecifationContanier{
+        padding: 0 !important;
+    }
+    .DesktopClickAboutOverviewSpecifationChasssispecifationimg{
+        width: 100%;
+    }
+=======
+>>>>>>> 405ef563bbaab54065b22971f3144edb1d6e0898
     .DesktopClickAboutOverviewSpecifationChasssisMain {
         text-align: center;
         display: block;
@@ -1003,4 +1098,8 @@
         padding: 11px 2px;
         font-size: 15px;
     }
+<<<<<<< HEAD
+=======
+>>>>>>> Stashed changes
+>>>>>>> 405ef563bbaab54065b22971f3144edb1d6e0898
 }

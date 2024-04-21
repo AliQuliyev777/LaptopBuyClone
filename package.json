@@ -9,8 +9,17 @@
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+<<<<<<< HEAD
     "axios": "^1.6.7",
     "date-fns": "^3.3.1",
+=======
+<<<<<<< Updated upstream
+    "axios": "^1.4.0",
+=======
+    "axios": "^1.6.7",
+    "date-fns": "^3.3.1",
+>>>>>>> Stashed changes
+>>>>>>> 405ef563bbaab54065b22971f3144edb1d6e0898
     "font-awesome": "^4.7.0",
     "framer-motion": "^10.16.4",
     "mdb-react-ui-kit": "^6.3.0",

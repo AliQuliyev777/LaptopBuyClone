@@ -5,6 +5,11 @@
      list-style-type: none;
      text-decoration: none;
 }
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+=======
+>>>>>>> 405ef563bbaab54065b22971f3144edb1d6e0898
 .shoppingCardsnotification{
      color:red;
      font-size: 15px;
@@ -12,6 +17,10 @@
 .shoppingCardsnotification{
 position: absolute;
 }
+<<<<<<< HEAD
+=======
+>>>>>>> Stashed changes
+>>>>>>> 405ef563bbaab54065b22971f3144edb1d6e0898
 .logoMenu3 a {
      padding: 0 !important;
 }
@@ -165,7 +174,15 @@ position: absolute;
      height: auto;
      background-color: rgb(0, 0, 0);
      position: absolute;
+<<<<<<< HEAD
      left:30%;
+=======
+<<<<<<< Updated upstream
+     left: 32%;
+=======
+     left:30%;
+>>>>>>> Stashed changes
+>>>>>>> 405ef563bbaab54065b22971f3144edb1d6e0898
      top: 6.8%;
      display: none;
      color: rgb(227, 227, 227);
@@ -195,7 +212,15 @@ position: absolute;
      /* width: 15%; */
      background-color: rgb(0, 0, 0);
      position: absolute;
+<<<<<<< HEAD
      left: 37%;
+=======
+<<<<<<< Updated upstream
+     left: 40%;
+=======
+     left: 37%;
+>>>>>>> Stashed changes
+>>>>>>> 405ef563bbaab54065b22971f3144edb1d6e0898
      top: 6.8%;
      display: none;
      color: rgb(227, 227, 227);
@@ -240,7 +265,15 @@ position: absolute;
      height: auto;
      background-color: rgb(0, 0, 0);
      position: absolute;
+<<<<<<< HEAD
      left: 59%;
+=======
+<<<<<<< Updated upstream
+     left: 60%;
+=======
+     left: 59%;
+>>>>>>> Stashed changes
+>>>>>>> 405ef563bbaab54065b22971f3144edb1d6e0898
      top: 6.6%;
      display: none;
      color: rgb(227, 227, 227);

@@ -22,6 +22,20 @@
 }
 
 .LaptopPageimageInside img {
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+    width: 60%;
+}
+
+.LaptopPageimagegallery {
+    width: 30%;
+}
+.LaptopPageimagegallery img {
+    width: 100%;
+}
+=======
+>>>>>>> 405ef563bbaab54065b22971f3144edb1d6e0898
     width: 100%;
 }
 
@@ -34,6 +48,10 @@
     height: 104px;
 }
 
+<<<<<<< HEAD
+=======
+>>>>>>> Stashed changes
+>>>>>>> 405ef563bbaab54065b22971f3144edb1d6e0898
 .LaptopPageimagegalleryone {
     cursor: pointer;
     border: 1px solid rgb(68, 68, 68);
@@ -188,7 +206,15 @@
     color: #ff0000;
 }
 .LaptopPageimagegallery {
+<<<<<<< HEAD
     width: 20%;
+=======
+<<<<<<< Updated upstream
+    width: 30%;
+=======
+    width: 20%;
+>>>>>>> Stashed changes
+>>>>>>> 405ef563bbaab54065b22971f3144edb1d6e0898
 }
 /* !LaptopPageInfo */
 .LaptopPageInfo {
@@ -197,7 +223,15 @@
     top: 0;
     left: 0;
     z-index: 200000;
+<<<<<<< HEAD
     background-color: #c3c3c3;
+=======
+<<<<<<< Updated upstream
+    background-color: rgb(255, 255, 255);
+=======
+    background-color: #c3c3c3;
+>>>>>>> Stashed changes
+>>>>>>> 405ef563bbaab54065b22971f3144edb1d6e0898
     display: flex;
     justify-content: center;
     align-items: center;
@@ -208,11 +242,24 @@
     width: 50%;
     text-align: -webkit-center;
     /* height: 40vh; */
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+    /* background-color: #ff0000; */
+}
+.LaptopPageInfoTable {
+    width: 100%;
+=======
+>>>>>>> 405ef563bbaab54065b22971f3144edb1d6e0898
     display: flex;
     /* background-color: #ff0000; */
 }
 .LaptopPageInfoTable {
     width: 50%;
+<<<<<<< HEAD
+=======
+>>>>>>> Stashed changes
+>>>>>>> 405ef563bbaab54065b22971f3144edb1d6e0898
     overflow-x: scroll !important;
     height: 100vh;
     /* background-color: rgb(119, 0, 255); */
@@ -243,6 +290,16 @@
 .swiper-button-prev {
     color: #ffb5b5;
 }
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+.LaptopPageInfoSlidethumb {
+    width: 60%;
+    height: auto;
+    display: flex;
+    cursor: pointer;
+=======
+>>>>>>> 405ef563bbaab54065b22971f3144edb1d6e0898
 .LaptopPageInfoSlidethumb img {
     border: 1px solid black;
     padding: 10px;
@@ -252,12 +309,24 @@
     height: auto;
     cursor: pointer;
     justify-content: left;
+<<<<<<< HEAD
+=======
+>>>>>>> Stashed changes
+>>>>>>> 405ef563bbaab54065b22971f3144edb1d6e0898
 }
 .LaptopPageInfoSlidethumbMain img {
     width: 100%;
 }
 .LaptopPageInfoSlidethumbMain {
+<<<<<<< HEAD
     width: 100%;
+=======
+<<<<<<< Updated upstream
+    width: 65%;
+=======
+    width: 100%;
+>>>>>>> Stashed changes
+>>>>>>> 405ef563bbaab54065b22971f3144edb1d6e0898
 }
 .LaptopPageInfoTablebutton {
     position: absolute;
@@ -267,15 +336,32 @@
     font-size: 35px;
 }
 
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+=======
+>>>>>>> 405ef563bbaab54065b22971f3144edb1d6e0898
 
 .LaptopPageInfoSlide.page-loaded {
     background-color: red;
 }
 
+<<<<<<< HEAD
+=======
+>>>>>>> Stashed changes
+>>>>>>> 405ef563bbaab54065b22971f3144edb1d6e0898
 .customThumbSlideClass.selected {
     border: 1px solid red;
 }
 .LaptopPageInfoTableMain {
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+    border: 1px solid #ddd;
+}
+.LaptopPageInfoTableMain tbody > tr {
+=======
+>>>>>>> 405ef563bbaab54065b22971f3144edb1d6e0898
     color: rgb(0, 0, 0);
     background-color: #c3c3c3;
     text-align: center;
@@ -283,13 +369,25 @@
 }
 .LaptopPageInfoTableMain tbody > tr {
     
+<<<<<<< HEAD
+=======
+>>>>>>> Stashed changes
+>>>>>>> 405ef563bbaab54065b22971f3144edb1d6e0898
     border: 1px solid #ddd;
 }
 
 .LaptopPageInfoTableMain tbody tr td {
     border-right: 1px solid #ddd;
+<<<<<<< HEAD
     padding: 10px;
 
+=======
+<<<<<<< Updated upstream
+=======
+    padding: 10px;
+
+>>>>>>> Stashed changes
+>>>>>>> 405ef563bbaab54065b22971f3144edb1d6e0898
 }
 
 .button_btn_container___LWS5 {
@@ -312,6 +410,45 @@
 }
 
 @media only screen and (max-width: 767px) {
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+    .LaptopPagerightside{
+        width: 100%;
+        padding: 10px;
+    }
+    .LaptopPageimage{
+        display: none;
+    }
+    .LaptopPageDesktopsMain{
+        padding: 0;
+    }
+    .snize-thumbnail{
+        height: 100px;
+    }
+    .LaptopPageDesktopsMain{
+        display: block;
+    }
+    .LaptopPageImageClicka{
+        padding-top: 50px;
+    width: 100%;
+
+        display: flex !important; 
+        overflow-y: scroll;
+        background-color: #ffffff;
+    }
+    .LaptopPageInfoTableMain{
+        width: 100%;
+    }
+    .showFullSpecClick12{
+        display: none;
+    }
+}
+.LaptopPageImageClicka{
+    display: none;
+
+=======
+>>>>>>> 405ef563bbaab54065b22971f3144edb1d6e0898
     .LaptopPagerightside {
         width: 100%;
         padding: 10px;
@@ -371,4 +508,8 @@
 }
 .LaptopFilter1212 label{
     color: white;
+<<<<<<< HEAD
+=======
+>>>>>>> Stashed changes
+>>>>>>> 405ef563bbaab54065b22971f3144edb1d6e0898
 }

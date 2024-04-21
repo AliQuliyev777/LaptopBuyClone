@@ -18,7 +18,19 @@ const PreBuiltPCDesktopsMain = () => {
 
             <div className={`PreBuiltPCDesktopsMain ${filterOption === 'birlestir' ? 'PreBuiltPCDesktopsMainbirletir' : filterOption === 'ikigoster' ? 'PreBuiltPCDesktopsMainikigoster' : ''}`}>
                 <PreBuiltPCDetailCard />
+<<<<<<< HEAD
           
+=======
+<<<<<<< Updated upstream
+                <PreBuiltPCDetailCard />
+                <PreBuiltPCDetailCard />
+                <PreBuiltPCDetailCard />
+                <PreBuiltPCDetailCard />
+                <PreBuiltPCDetailCard />
+=======
+          
+>>>>>>> Stashed changes
+>>>>>>> 405ef563bbaab54065b22971f3144edb1d6e0898
             </div>
         </>
     );

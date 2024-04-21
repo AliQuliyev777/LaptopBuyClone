@@ -13,8 +13,19 @@ const ReklamDesktop = () => {
                 <h2>PRE-BUILT GAMING COMPUTERS</h2>
                 <p>Looking for an easy way to fulfill your computer needs? Look no further! </p>
                 <div className="ImageButton">
+<<<<<<< HEAD
                     <Link className="show" to="/laptopsviewall" >
                         <span>Show Desktops</span>
+=======
+<<<<<<< Updated upstream
+                    <Link className="show" >
+                        <span>Show Desktops</span>
+        
+=======
+                    <Link className="show" to="/laptopsviewall" >
+                        <span>Show Desktops</span>
+>>>>>>> Stashed changes
+>>>>>>> 405ef563bbaab54065b22971f3144edb1d6e0898
                     </Link>
                 </div>
             </div>

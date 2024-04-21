@@ -8,7 +8,17 @@ const ReadyToShipDesktops = () => {
         <>
             <section className="ReadyToShipDesktopsMain" >
                 <ReadyToShipDesktopCard />
+<<<<<<< HEAD
       
+=======
+<<<<<<< Updated upstream
+                <ReadyToShipDesktopCard />
+                <ReadyToShipDesktopCard />
+                <ReadyToShipDesktopCard />
+=======
+      
+>>>>>>> Stashed changes
+>>>>>>> 405ef563bbaab54065b22971f3144edb1d6e0898
             </section>
         </>
     );
