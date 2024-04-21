@@ -1,0 +1,190 @@
+
+@media only screen and (max-width: 767px) {
+
+    /* Your mobile-specific styles go here */
+
+    /* Example: Hide an element on mobile screens */
+    .PreBuiltPCMain h1 {
+        padding-top: 20%;
+    }
+    .PreBuiltPcFiltersMenuMaincheckbox {
+        display: flex;
+    }
+    .PreBuiltPCDesktopsTop2paneldropdownul {
+        width: 100%;
+        height: 93%;
+        top: 7%;
+        transform: translate(0px, 0px);
+        border-radius: 20px 20px 0px 0px;
+        display: block;
+        left: 0px;
+        padding: inherit;
+    }
+    .PreBuiltPCDesktopsTop2paneldropdown {
+        width: 100%;
+    }
+    .PreBuiltPCDesktopsTop2paneldropdownul i {
+        color: red;
+        font-size: 30px;
+    }
+    .PreBuiltPCDesktopsTop2paneldropdownul ul li {
+        color: #333;
+        font-size: 16px;
+        font-weight: bold;
+        white-space: nowrap;
+        overflow: hidden;
+        display: inline-block;
+        text-overflow: ellipsis;
+        vertical-align: middle;
+        line-height: 56px;
+        width: 100%;
+        padding-left: 25px;
+        text-decoration: none;
+    }
+    .PreBuiltPCDesktopsTop2paneldropdownulicon {
+        display: none;
+    }
+.PreBuiltPCDesktopsTop{
+    display: none;
+}
+    .selectedOptionTextddiv {
+        width: 100;
+    }
+    .PreBuiltPCDesktopsTop2paneldropdown {
+        width: 100%;
+        background-color: blue;
+    }
+    .PreBuiltPCDetailCard {
+        margin-bottom: 0px;
+        margin-left: 0px;
+    }
+
+    .PreBuiltPCDesktopsMain {
+        display: grid;
+        justify-items: end;
+        grid-template-columns: repeat(2, 2fr); /* İki sütunlu bir grid oluşturur */
+        gap: 10px; /* Sütunlar arasına boşluk ekler, isteğe bağlı */
+    }
+    .PreBuiltPCDetailCard {
+        width: 100%;
+    }
+    .snize-filters-dropdown-content {
+        width: 15%;
+        padding: 0px;
+    }
+    .snize-filters-dropdown-content ul {
+        width: 20%;
+    }
+    .snize-product-filters-list.open {
+        background-color: black;
+    }
+    .PreBuiltPCDetailCard12 {
+        margin-left: 0 !important;
+        width: 100%;
+    }
+
+    .PreBuiltPcFiltersMenuMain {
+        display: none;
+    }
+
+    /* !PreBuiltPcFiltersMobileMainMenu */
+    .PreBuiltPcFiltersMobileMainMenu {
+        display: none;
+
+        width: 100%;
+        height: 84%;
+        bottom: -0%;
+        z-index: 1000000000;
+        position: fixed;
+        visibility: visible;
+        transform: translate(0px, 0px);
+        border-radius: 20px 20px 0px 0px;
+        display: block !important;
+        background-color: rgb(255, 255, 255);
+        left: 0px;
+        padding: inherit;
+    }
+    .snize-product-filters-list-container {
+        height: 56px;
+        border-bottom: solid 1px #e8e9eb;
+        margin: 0;
+        list-style-type: none;
+
+        padding: 0;
+    }
+    .snize-product-filters-buttons-container {
+        position: absolute;
+        bottom: 0;
+        left: 20px;
+        right: 20px;
+        text-align: center;
+overflow-y: scroll;
+        padding-bottom: 12px;
+    }
+    .snize-product-filters-show-products {
+        width: 100%;
+        height: 46px;
+        border-radius: 6px;
+margin-top: 20px;
+        background-color: #e90000;
+        box-sizing: border-box;
+    }
+    .snize-product-filter-container {
+        position: absolute;
+        top: 0px;
+        width: 100%;
+    height: 65vh;
+        overflow-y: auto;
+        background-color: #ffffff;
+        left: 0px;
+        z-index: 1000000000;
+        text-align: left;
+        margin: 0;
+    }
+    .snize-thumbnail {
+        height: 200px !important;
+    }
+    .PreBuiltPcFiltersMobileButtton {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding: 10px 50px;
+        background-color: #e90000;
+        display: inline-block;
+        color: black;
+        border-radius: 30px;
+    }
+    .snize-product-filter-container ul li label {
+        color: black;
+        padding: 12px 0 18px;
+        border-bottom: 1px solid #e8e9eb;
+    }
+    .PreBuiltPCDesktopsMainMobile {
+        width: 100%;
+        justify-content: space-around;
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 0;
+        height: auto;
+    }
+
+    .PreBuiltPCDesktopsMainMobile {
+        display: grid;
+        justify-items: end;
+        grid-template-columns: repeat(2, 2fr);
+        gap: 10px;
+    }
+
+    .snize-product-filters-list-container span {
+        font-size: 16px;
+        padding: 10px;
+        font-weight: bold;
+        white-space: nowrap;
+        max-width: 60%;
+        overflow: hidden;
+        display: inline-block;
+        text-overflow: ellipsis;
+        vertical-align: middle;
+        line-height: 56px;
+    }
+}
+

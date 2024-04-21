@@ -1,0 +1,71 @@
+.ContactMainDiv {
+    width: 100%;
+    text-align: center;
+
+    background-color: #1c1c20;
+}
+.ContactFlexDiv {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background-color: #1c1c20;
+    padding-bottom: 5%;
+}
+.ContactOneDiv {
+    font-size: 18px !important;
+    line-height: 1.6em !important;
+    letter-spacing: 0px !important;
+    text-transform: none !important;
+
+    font-family: Montserrat !important;
+    font-weight: 400 !important;
+
+    text-align: left !important;
+    color: white;
+
+    width: 37%;
+    /* height: 20vh; */
+    background-color: rgb(0, 0, 0);
+}
+.ContactOneDiv img {
+    width: 40%;
+}
+.ContactTwoDiv {
+    color: white;
+    width: 38%;
+    /* height: 20vh; */
+    background-color: rgb(13, 13, 13);
+}
+.ContactMainDiv h1 {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    color: white;
+    font-size: 25px !important;
+    line-height: 0.85em !important;
+    letter-spacing: 0px !important;
+    text-transform: uppercase !important;
+    font-family: Montserrat !important;
+    font-weight: 400 !important;
+}
+
+.CustomerServiceText {
+    text-align: center;
+    background-image: url(https://ucarecdn.com/9c4d674e-e6fa-41a5-a6fc-7e9ddbb2de4a/-/format/auto/-/preview/3000x3000/-/quality/lighter/) !important;
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+    background-size: cover !important;
+    border-radius: 20px 20px 0 0/20px 20px 0px 0px !important;
+}
+.CustomerServiceSupport {
+    padding: 10px;
+}
+@media only screen and (max-width: 767px) {
+    .ContactFlexDiv {
+        display: block;
+    }
+.ContactOneDiv{
+    width: 100%;
+}
+
+
+}

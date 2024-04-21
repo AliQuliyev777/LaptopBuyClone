@@ -1,0 +1,595 @@
+.SupportfirstSlide {
+    width: 100%;
+    /* height: 30vh; */
+    /* background-color: red; */
+}
+.SupportfirstSlide img {
+    backdrop-filter: brightness(15%) blur(5px) !important;
+    object-position: right;
+
+    width: 100%;
+    /* height: 100vh; */
+}
+.SupportfirstSlideProducts {
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    width: 40%;
+    /* height: 20vh; */
+    /* background-color: aqua; */
+}
+.SupportfirstSlideProducts h1 {
+    font-size: 66px !important;
+    line-height: 1.5em !important;
+    letter-spacing: 0px !important;
+    color: #fff !important;
+    text-transform: uppercase !important;
+    font-weight: 900 !important;
+    font-family: Montserrat !important;
+}
+.blurSupportSlide {
+    backdrop-filter: brightness(15%) blur(5px);
+}
+.SupportRequest {
+    width: 100%;
+    /* height: 40vh; */
+    background-color: aqua;
+}
+.SupportRequestNavigation {
+    padding-bottom: 25px;
+    width: 100%;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+}
+.SupportRequestNavigation ul {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+}
+.SupportRequestNavigation ul li span {
+    text-decoration: none !important;
+    margin-left: 30px;
+    cursor: pointer;
+    color: black;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.SupportRequestNavigation .active {
+    border-bottom: 5px solid rgb(255, 0, 0);
+    color: red;
+}
+
+.HomeSupportRequest {
+    width: 100%;
+    /* height: 20vh; */
+    display: block;
+    background-color: rgb(255, 255, 255);
+}
+.HomeSupportRequestMainButton {
+    padding-top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+.HomeSupportRequestMainButton a {
+    padding: 15px 50px;
+    font-size: 15px !important;
+    text-transform: uppercase !important;
+    font-weight: 600 !important;
+    background-color: #ed1c24 !important;
+    color: #fff !important;
+    font-family: Montserrat !important;
+    border-radius: 15px !important;
+    border-color: #ed1c24 !important;
+}
+
+.HomeSupportRequestMainDivs {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    /* height: 20vh; */
+    /* background-color: dodgerblue; */
+}
+
+.HomeSupportRequestMainDiv1 {
+    padding-bottom: 20px;
+    padding-left: 50px !important;
+    padding-right: 30px !important;
+    font-size: 16px !important;
+    line-height: 1.6em !important;
+    letter-spacing: 0px !important;
+    font-family: Montserrat !important;
+    color: #333 !important;
+    text-transform: none !important;
+    font-weight: 400 !important;
+    text-align: center;
+    margin-left: 10px;
+    width: 30%;
+    /* height: 10vh; */
+    /* background-color: rgb(243, 162, 0); */
+}
+
+.HomeSupportRequestMainDiv1 svg {
+    color: red;
+    font-size: 40px;
+}
+
+.HomeSupportRequestMainDiv1 h1 {
+    font-size: 20px !important;
+    line-height: 1.5em !important;
+    letter-spacing: 0px !important;
+    color: #000 !important;
+    text-transform: none !important;
+    font-family: Montserrat !important;
+    font-weight: 800 !important;
+}
+.HomeSupportRequesUpgradePolicy::before {
+    width: 70%;
+    content: "";
+    position: absolute;
+    bottom: -166%;
+    left: 15%;
+    height: 0.2px;
+    background-color: #000000;
+}
+.HomeSupportRequesUpgradePolicy h4 {
+    padding-left: 40%;
+
+    font-size: 21px !important;
+    line-height: 1.5em !important;
+    letter-spacing: 0px !important;
+    color: #ed1c24 !important;
+    text-transform: uppercase !important;
+    font-weight: 600 !important;
+    font-family: Montserrat !important;
+}
+
+.HomeSupportRequesUpgradePolicyDivs {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    /* height: 20vh; */
+    /* background-color: #ed1c24; */
+}
+.HomeSupportRequesUpgradePolicyDiv1 {
+    width: 20%;
+    height: auto;
+}
+.HomeSupportRequesUpgradePolicyDiv1 img {
+    padding-top: 50%;
+    width: 100%;
+    height: auto;
+}
+.HomeSupportRequesUpgradePolicyDiv2 p {
+    font-size: 16px !important;
+    line-height: 1.6em !important;
+    letter-spacing: 0px !important;
+    font-family: Montserrat !important;
+    color: #333 !important;
+    text-transform: none !important;
+    font-weight: 400 !important;
+}
+.HomeSupportRequesUpgradePolicyDiv2 {
+    width: 40%;
+}
+
+.ReturnsSupportRequest {
+    width: 100%;
+
+    display: block;
+    /* height: 20vh; */
+    background-color: rgb(255, 255, 255);
+}
+
+.ReturnsSupportRequestAllDivs {
+    width: 100%;
+    /* height: 10vh; */
+    /* background-color: yellow; */
+}
+.ReturnsSupportRequestOne {
+    width: 80%;
+    height: auto;
+    margin-left: 15%;
+}
+.ReturnsSupportRequestOne img {
+    width: 100%;
+    height: auto;
+}
+.ReturnsSupportRequestOnetext {
+    text-align: center;
+    margin-left: 15%;
+    width: 80%;
+    height: auto;
+    padding: 10px;
+    background-color: rgb(0, 101, 184);
+}
+.ReturnsSupportRequestOnetext h1 {
+    font-size: 30px !important;
+    line-height: 0.85em !important;
+    letter-spacing: 0px !important;
+    color: #fff !important;
+    text-transform: none !important;
+    font-family: Montserrat !important;
+    font-weight: 400 !important;
+}
+.ReturnsSupportRequestImageAll {
+    width: 80%;
+    display: flex;
+    margin-left: 16%;
+}
+.ReturnsSupportRequestImageAll img {
+    width: 90%;
+}
+.ReturnsSupportRequestGetDivs {
+    display: flex;
+    justify-content: center;
+}
+.ReturnsSupportRequestGetDiv1 {
+    width: 35%;
+    height: auto;
+    /* background-color: red; */
+}
+.ReturnsSupportRequestGetDiv1 h1 {
+    font-size: 30px !important;
+    line-height: 0.85em !important;
+    letter-spacing: 0px !important;
+    color: #333 !important;
+    text-transform: uppercase !important;
+    font-family: Montserrat !important;
+    font-weight: 400 !important;
+}
+.ReturnsSupportRequestGetDiv1 p {
+    font-size: 16px !important;
+    line-height: 1.6em !important;
+    letter-spacing: 0px !important;
+    font-family: Montserrat !important;
+    color: #333 !important;
+    text-transform: none !important;
+    font-weight: 400 !important;
+}
+.ReturnsSupportReturnExhanges {
+    padding-bottom: 10%;
+
+    padding-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
+    height: auto;
+    /* background-color: #333; */
+}
+.ReturnsSupportReturnExhangesBlackDiv {
+    border: 1px solid black;
+
+    color: white;
+
+    width: 100%;
+    /* height: 20vh; */
+    padding: 44px 40px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #2b2b2b;
+}
+.ReturnsSupportReturnExhangesBlackDiv ul {
+    z-index: 100;
+
+    display: flex;
+}
+.ReturnsSupportReturnExhangesWhiteDivs {
+    border: 1px solid black;
+    text-align: center;
+    width: 100%;
+    /* height: 20vh; */
+    /* background-color: rgb(8, 255, 181); */
+}
+.ReturnsSupportReturnExhangesWhiteDivsText input {
+    width: 80%;
+    height: auto;
+    padding: 10px;
+}
+.ReturnsSupportReturnExhangesWhiteDivsText h3 {
+    font-family:
+        Open Sans,
+        Helvetica Neue,
+        Helvetica,
+        Roboto,
+        Arial,
+        sans-serif;
+    font-size: 26px;
+    margin: 0 0 10px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.ReturnsSupportReturnExhangesWhiteDivsText button:hover {
+    background-color: #ff3b41;
+    opacity: 90%;
+}
+.ReturnsSupportReturnExhangesWhiteDivsText button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+    font-family:
+        Grotesk,
+        Helvetica Neue,
+        Helvetica,
+        Roboto,
+        Arial,
+        sans-serif;
+    font-size: 20px;
+    line-height: 50px;
+    margin: 0;
+    opacity: 1;
+    outline: none;
+    overflow: hidden;
+    padding: 0 20px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    text-transform: uppercase;
+    transition:
+        all 0.25s ease,
+        font-size 0s;
+    vertical-align: middle;
+    white-space: nowrap;
+    width: 80%;
+    background-color: rgb(255, 0, 0);
+    color: white;
+}
+.ReturnsSupportReturnExhangesWhiteDivsText p {
+    padding-bottom: 40px;
+
+    margin-top: 30px;
+}
+.ReturnsSupportReturnExhangesWhiteDivsText u {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.title::after,
+.title::before {
+    content: "";
+    position: absolute;
+    right: 1.25em;
+    top: 1.25em;
+    width: 2px;
+
+    transition: all 1s;
+    height: 0.75em;
+    background-color: #7a7572;
+    transition: all 1s;
+}
+
+.title::after {
+    transform: rotate(90deg);
+}
+
+.content {
+    max-height: 0;
+}
+
+.toggle:checked + .title,
+.toggle:checked + .title + .content {
+    box-shadow:
+        3px 3px 6px #ddd,
+        -3px 3px 6px #ddd;
+    transition: all 4s;
+}
+.toggle:checked + .title + .content {
+    transition: all 5s;
+
+    max-height: 500px;
+}
+.toggle:checked + .title::before {
+    transform: rotate(90deg) !important;
+}
+
+.SupportFaqAllDiv {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.SupportFaqAllDiv h3 {
+    font-size: 30px !important;
+    line-height: 0.85em !important;
+    letter-spacing: 0px !important;
+    color: #333 !important;
+    text-transform: none !important;
+    font-family: Montserrat !important;
+    font-weight: 400 !important;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.SupportFaqDiv2 a {
+    font-size: 18px !important;
+    text-transform: none !important;
+    padding-top: 0 !important;
+    font-family: Montserrat !important;
+    font-weight: 400 !important;
+    border-radius: 15px !important;
+    border-color: #ed1c24 !important;
+    background-color: #ed1c24 !important;
+    color: #fff !important;
+    padding: 20px;
+}
+.SupportFaqDiv2 span {
+    padding-top: 50px;
+}
+.text-align-center {
+    text-align: center;
+}
+.SupportFaqDiv2 h2 {
+    font-size: 25px !important;
+    line-height: 0.95em !important;
+    letter-spacing: 0px !important;
+    color: #333 !important;
+    text-transform: uppercase !important;
+    font-weight: 400 !important;
+    font-family: Montserrat !important;
+}
+
+.SupportFaqDiv2 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: auto;
+    /* background-color: yellow; */
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.WarrantiessSupportRequest {
+    display: block;
+    width: 100%;
+    /* height: 20vh; */
+    background-color: rgb(255, 255, 255);
+}
+
+.UtilitiesSupportRequest {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    /* height: 20vh; */
+    background-color: rgb(255, 255, 255);
+    /* padding-bottom: 10%; */
+}
+
+.UtilitiesSupportRequestAllDivs {
+    padding-top: 10%;
+    padding-bottom: 10%;
+    width: 60%;
+    height: auto;
+    /* background-color: #ed1c24; */
+}
+
+.UtilitiesSupportRequestAllDivs ul li a span {
+    font-size: 16px !important;
+    text-decoration: underline;
+    line-height: 1.6em !important;
+    letter-spacing: 0px !important;
+    font-family: Montserrat !important;
+    color: blue !important;
+    text-transform: none !important;
+    font-weight: 400 !important;
+}
+.WallpapersSupportRequest {
+    justify-content: space-around;
+    display: flex;
+    width: 100%;
+    /* height: 20vh; */
+    background-color: rgb(255, 255, 255);
+}
+.WallpapersSupportDivImage {
+    /* padding: 4%; */
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.WallpapersSupportDivImage img {
+    cursor: pointer;
+    transition: 1s all;
+    padding: 10px;
+    border-radius: 20px;
+    max-width: calc(33.33% - 20px);
+    height: auto;
+}
+.WallpapersSupportDivImage img:hover {
+    transform: scale(1.025);
+}
+.WallpapersSupportDivImageFullScreen {
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden !important; /* Tam ekran görüntüyü gizlemek için ekledik */
+}
+
+.WallpapersSupportDivImageFullScreen img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    cursor: pointer;
+}
+@media only screen and (max-width: 767px) {
+    .SupportfirstSlideProducts {
+        width: 100%;
+        top: 0;
+        left: 0;
+    }
+    .SupportfirstSlide img {
+        object-fit: cover;
+        object-position: center;
+    }
+    .blurSupportSlide {
+        backdrop-filter: unset;
+        height: 100vh;
+        padding-top: 20%;
+    }
+    .HomeSupportRequestMainDivs{
+        display: block;
+    }
+    .HomeSupportRequestMainDiv1{
+        width: 100%;
+    }
+    .HomeSupportRequesUpgradePolicyDivs{
+        display: block;
+    }
+    .HomeSupportRequesUpgradePolicyDiv2{
+        width: 100%;
+        text-align: center;
+    }
+    .HomeSupportRequesUpgradePolicyDiv1{
+        width: 100%;
+    }
+    .SupportRequestNavigation ul{
+        flex-wrap: wrap;
+    }
+    .SupportRequestNavigation ul li span{
+        padding: 0;
+    }
+    .ReturnsSupportRequestImageAll{
+        display: block;
+    }
+    .ReturnsSupportRequestGetDivs{
+        display: block;
+    }
+    .ReturnsSupportRequestGetDiv1{
+        width: 100%;
+        padding: 10%;
+    }
+    .ReturnsSupportReturnExhanges{
+        width: 100%;
+        padding: 10%;
+    }
+    .SupportFaqDiv2{
+        width: 100%;
+    }
+    .ReturnsSupportRequestOne{
+        width: 100%;
+        margin-left: 0;
+    }
+    .WallpapersSupportDivImage img{
+        max-width: 100%;
+    }
+}
